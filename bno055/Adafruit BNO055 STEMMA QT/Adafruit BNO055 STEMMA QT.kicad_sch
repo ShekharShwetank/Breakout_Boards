@@ -1,0 +1,10480 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "44b46fe4-9e37-4197-a066-d426c8c8c1be")
+	(paper "A4")
+	(title_block
+		(title "BNO055_BREAKOUT")
+		(date "SEPTEMBER 2024")
+		(rev "SHEKHAR S")
+	)
+	(lib_symbols
+		(symbol "Adafruit BNO055 STEMMA QT-eagle-import:3.3V"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -1.524 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.3V Supply"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "3.3V_1_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "3.3V"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BNO055 STEMMA QT-eagle-import:BNO055"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at -17.78 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -17.78 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit BNO055 STEMMA QT:BNO055"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "BNO055 - Motion Co-Processor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BNO055_1_0"
+				(polyline
+					(pts
+						(xy -17.78 -27.94) (xy 17.78 -27.94)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -17.78 -20.32) (xy -17.78 -27.94)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -17.78 -20.32) (xy -17.78 20.32)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -17.78 20.32) (xy -17.78 25.4)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -17.78 20.32) (xy 17.78 20.32)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -17.78 25.4) (xy 17.78 25.4)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 -27.94) (xy 17.78 -20.32)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 -20.32) (xy -17.78 -20.32)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 20.32) (xy 17.78 -20.32)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 25.4) (xy 17.78 20.32)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "2.4-3.6V\n1.7-3.6V\n-40~~85°C"
+					(at 5.08 -24.13 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left)
+					)
+				)
+				(text "BNO055\nMOTION CO-PROCESSOR"
+					(at 0 22.86 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+					)
+				)
+				(text "VDD:\nVDDIO:\nOperating Temp:"
+					(at -15.24 -24.13 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -2.54 0)
+					(length 2.54)
+					(name "PIN10(GND)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 0 180)
+					(length 2.54)
+					(name "NRESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 5.08 180)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -5.08 0)
+					(length 2.54)
+					(name "PIN15(GND)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -7.62 0)
+					(length 2.54)
+					(name "PIN16(GND)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 10.16 180)
+					(length 2.54)
+					(name "COM3/I2C_ADDR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 12.7 180)
+					(length 2.54)
+					(name "COM2(GND)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 15.24 180)
+					(length 2.54)
+					(name "COM1/SCL/RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 5.08 0)
+					(length 2.54)
+					(name "GND@1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 17.78 180)
+					(length 2.54)
+					(name "COM0/SDA/TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 2.54 0)
+					(length 2.54)
+					(name "GND@2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -17.78 0)
+					(length 2.54)
+					(name "XOUT32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -12.7 0)
+					(length 2.54)
+					(name "XIN32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 15.24 0)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 17.78 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -12.7 180)
+					(length 2.54)
+					(name "NBOOT_LOAD_PIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -7.62 180)
+					(length 2.54)
+					(name "PS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -5.08 180)
+					(length 2.54)
+					(name "PS0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -15.24 180)
+					(length 2.54)
+					(name "PIN7(SWDIO)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -17.78 180)
+					(length 2.54)
+					(name "PIN8(SWCLK)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 10.16 0)
+					(length 2.54)
+					(name "CAP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BNO055 STEMMA QT-eagle-import:CAP_CERAMIC0603_NO"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -2.29 1.25 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 2.3 1.25 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Adafruit BNO055 STEMMA QT:0603-NO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CAP_CERAMIC0603_NO_1_0"
+				(rectangle
+					(start -1.27 0.508)
+					(end 1.27 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.27 1.524)
+					(end 1.27 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BNO055 STEMMA QT-eagle-import:CAP_CERAMIC0805-NOOUTLINE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -2.29 1.25 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 2.3 1.25 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Adafruit BNO055 STEMMA QT:0805-NO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CAP_CERAMIC0805-NOOUTLINE_1_0"
+				(rectangle
+					(start -1.27 0.508)
+					(end 1.27 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.27 1.524)
+					(end 1.27 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BNO055 STEMMA QT-eagle-import:DIODESOD-323"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -2.5 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+				)
+			)
+			(property "Footprint" "Adafruit BNO055 STEMMA QT:SOD-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode\n\nSMA     Model   Volts   Amps   Type   Vf   Ir   Digikey #   Notes     SSA34-E3   40V   3A   Schottky   480mV @ 3A   200uA @ 40V   SSA34-E3/61TGITR-ND        CDBA120-G   20V   1A   Schottky   500mV @ 1A   500uA @ 20V   641-1014-6-ND   REEL     MBRA210   10V   2A   Schottky   350mV @ 2A   700uA @ 10V   MBRA210LT3      SOD-123     Model   Volts   Amps   Type   Vf   Ir   Order #   Notes     BAT54T1G   30V   200mA   Schottky   800mV @ 200mA   2uA @ 25V   BAT54T1GOSTR-ND        B0530W   30V   500mA   Schottky   430mV @ 500mA   130uA @ 30V   B0530W-FDICT-ND   REEL     MBR120   20V   1A   Schottky   340mV @ 1A      MBR120VLSFT1GOSCT-ND      SOD-323     Model   Volts   Amps   Type   Vf   Ir   Order #   Notes     PMEG2005EJ   20V   500mA   Schottky   355mV @ 500mA      568-4110-1-ND        ZLLS410   10V   570mA   Schottky   380mV @ 570mA      ZLLS410CT-ND        1N4148WS   75V   150mA   Silicon/Simple   1V      1N4148WSFSCT-ND   REEL   SOD-523     Model   Volts   Amps   Type   Vf   Ir   Order #   Notes     BAT54XV2   30V   200mA   Schottky   0.8V @ 100mA      BAT54XV2CT-ND        TB751S   30V   30mA   Schottky         RB751S-40TE61CT-ND      SOT23-R/W(R = Solder Paste/Reflow Ovens, W = Hand-Soldering)      Model   Volts   Amps   Type   Vf   Ir   Order #   Notes     BAT54FILM   40V   300mA   Schottky         497-7162-1-ND       POWERDI-5      Model   Volts   Amps   Type   Vf   Ir   Order #   Notes     PDS560   60V   5A   Schottky   670mV @ 5A   150uA @ 60V   PDS560DICT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DIODESOD-323_1_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BNO055 STEMMA QT-eagle-import:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -1.524 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BNO055 STEMMA QT-eagle-import:HEADER-1X476MIL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -6.35 8.255 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -6.35 -7.62 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit BNO055 STEMMA QT:1X04_ROUND_76"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PIN HEADER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HEADER-1X476MIL_1_0"
+				(polyline
+					(pts
+						(xy -6.35 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 7.62) (xy -6.35 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 1.27 7.62)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy -6.35 7.62)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 5.08 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BNO055 STEMMA QT-eagle-import:HEADER-1X670MIL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -6.35 10.795 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -6.35 -10.16 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit BNO055 STEMMA QT:1X06_ROUND_70"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PIN HEADER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HEADER-1X670MIL_1_0"
+				(polyline
+					(pts
+						(xy -6.35 -7.62) (xy 1.27 -7.62)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 10.16) (xy -6.35 -7.62)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 1.27 10.16)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 10.16) (xy -6.35 10.16)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 7.62 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 5.08 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BNO055 STEMMA QT-eagle-import:LED0603_NOOUTLINE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -1.27 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+				)
+			)
+			(property "Footprint" "Adafruit BNO055 STEMMA QT:CHIPLED_0603_NOOUTLINE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED\n\n0603 - 0603 Surface Mount Package\n\n2mA:\n\n• Green LED - Low Power (3.9mcd, 2ma, 1.7Vf) - Digikey: 475-2709-2-ND\n• Orange LED - Low Power (9.8mcd, 2ma, 1.8Vf) - Digikey: 475-1194-2-ND\n• Red LED - Low Power (5mcd, 2ma, 1.8Vf) - Digikey: 475-1195-2-ND\n• Yellow LED - Low Power (7mcd, 2ma, 1.8Vf) - Digikey: 475-1196-2-ND\n\n5mA:\n\n• Blue LED - Low Power (17mcd, 5ma, 2.9Vf) - Digikey: LNJ937W8CRACT-ND\n\n0805 - 0805 Surface Mount Package\n\n2mA:\n\n• Red LED (8.8mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2510-1-ND]\n• Green LED (5mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2730-1-ND]\n• Yellow LED (11.3mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2555-1-ND]\n\n20mA:\n\n• Red LED (104mcd, 20mA, Diffused) - LS R976 [Digikey: 475-1278-6-ND]\n• Red LED (12mcd, 20mA, 2.0Vf, Clear) - APT2012EC [Digikey: 754-1128-1-ND]\n• Green LED (15mcd, 20mA, 2.2Vf, Clear) - APT2012GC [Digikey: 754-1131-1-ND]\n• Orange LED (160mcd, 20mA, 2.1Vf, Clear) - APT2012SECK [Digikey: 754-1130-1-ND]\n\n• 1206 - 1206 Surface Mount Package\n\n• Green LED (26mcd, 20mA, Diffused) - LG N971  [Digikey: 475-1407-6-ND]\n• Red LED (15mcd, 20mA, Diffused) - LH N974 [Digikey: 475-1416-6-ND]\n\n• Cree - Cree High-Power Surface Mount LEDs\n\n• XPEBWT-L1-0000-00D50 - White 111lm 350mA 2.9Vf 6200K 110°\n• XTEAWT-00-0000-00000LEE3 - White 114lm 350mA 2.85Vf 5000K 115°\n\n• Everlight - Everlight 45-21 Series Surface Mount LEDs\n\n• 45-21/QK2C-B2832AC2CB2/2T - Warm White 2000mcd 20mA 3.25Vf 3050K 120°\n• 45-21/LK2C-B38452C4CB2/2T - Nuetral White 2000mcd 20mA 3.25Vf 4150K 120°\n• 45-21/LK2C-B50634C6CB2/2T - Cold White 2200mcd 20mA 3.25Vf 5650K 120°\n\n• PLCC2 Reverse Mount\n\n• LS T77K-J1L2-1-0-2-R18-Z - Red 11.25mcd 2mA 1.8Vf 630nm 120°\n• LO T77K-L1M2-24-Z - Orange 19.6mcd 2mA 1.8Vf 606nm 120°\n• LY T77K-K2M1-26-Z - Yellow 15.7mcd 2mA 1.8Vf 587nm 120°"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED0603_NOOUTLINE_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy -0.635 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.9525 2.8575) (xy -0.3175 2.2225)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0.635 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3175 2.2225) (xy 0 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy -0.9525 2.8575)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.3175 2.8575) (xy 0.9525 2.2225)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.9525 2.2225) (xy 1.27 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.175) (xy 0.3175 2.8575)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BNO055 STEMMA QT-eagle-import:MOSFET-N_DUAL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit BNO055 STEMMA QT:SOT363"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual N-Channel MOSFET\n\nSOT363 (2.0x1.25mm)\n\n• 2N7002PS - 60V, 320mA [Digikey: 568-5984-1-ND]"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MOSFET-N_DUAL_1_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.54) (xy 0.762 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.905) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.762) (xy 0.762 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 0.762 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.175) (xy 0.762 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.508) (xy 3.048 0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 0.508) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 0.762) (xy 4.318 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 -0.254) (xy 4.318 -0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "D"
+					(at 3.175 3.175 0)
+					(effects
+						(font
+							(size 0.8128 0.6908)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "G"
+					(at -1.27 -1.905 0)
+					(effects
+						(font
+							(size 0.8128 0.6908)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "S"
+					(at 3.175 -3.81 0)
+					(effects
+						(font
+							(size 0.8128 0.6908)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MOSFET-N_DUAL_2_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.54) (xy 0.762 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.905) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.762) (xy 0.762 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 0.762 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.175) (xy 0.762 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.508) (xy 3.048 0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 0.508) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 0.762) (xy 4.318 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 -0.254) (xy 4.318 -0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "D"
+					(at 3.175 3.175 0)
+					(effects
+						(font
+							(size 0.8128 0.6908)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "G"
+					(at -1.27 -1.905 0)
+					(effects
+						(font
+							(size 0.8128 0.6908)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "S"
+					(at 3.175 -3.81 0)
+					(effects
+						(font
+							(size 0.8128 0.6908)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BNO055 STEMMA QT-eagle-import:RESISTOR_0603_NOOUT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "Adafruit BNO055 STEMMA QT:0603-NO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RESISTOR_0603_NOOUT_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BNO055 STEMMA QT-eagle-import:RESISTOR_4PACK"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "Adafruit BNO055 STEMMA QT:RESPACK_4X0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor Packs (4 resistors)\n\n4 x 0603\n\n• 10K 1/16W - Digikey: YC164J-10KCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RESISTOR_4PACK_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RESISTOR_4PACK_2_0"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RESISTOR_4PACK_3_0"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RESISTOR_4PACK_4_0"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BNO055 STEMMA QT-eagle-import:SOLDERJUMPER"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SJ"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit BNO055 STEMMA QT:SOLDERJUMPER_ARROW_NOPASTE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Solder JUMPER\n\nSolder the two pads together to create a connection, or remove the solder to break it.\n\nREFLOW - Use this footprint for solder paste and reflow ovens. WAVE - Use this footprint for hand-soldering (larger pads).\n\nCLOSED - Has a trace between the two pads to ensure it is closed by default.  The trace needs to be cut to disable the jumper, and can be closed again by creating a solder bridge between the two pads."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SOLDERJUMPER_1_0"
+				(arc
+					(start -0.3808 0.635)
+					(mid -1.0159 0.0001)
+					(end -0.381 -0.635)
+					(stroke
+						(width 1.27)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.651 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.651 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.3808 -0.635)
+					(mid 1.0159 -0.0001)
+					(end 0.381 0.635)
+					(stroke
+						(width 1.27)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BNO055 STEMMA QT-eagle-import:STEMMA_I2C_QT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CONN"
+				(at -3.81 8.255 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -7.62 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Adafruit BNO055 STEMMA QT:JST_SH4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "STEMMA_I2C_QT_1_0"
+				(polyline
+					(pts
+						(xy -3.81 -5.08) (xy 3.81 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 7.62) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy 3.81 7.62)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 7.62) (xy -3.81 7.62)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at 0 5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 0 2.54 0)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 0 0 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "STEMMA_I2C_QT_2_0"
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "STEMMA_I2C_QT_3_0"
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BNO055 STEMMA QT-eagle-import:VCC"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#P+"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_1_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.905) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BNO055 STEMMA QT-eagle-import:VREG_SOT23-5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -7.62 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit BNO055 STEMMA QT:SOT23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SOT23-5 Fixed Voltage Regulators\n\nPart Current Out V Out V In V Dropout θJA (°C/W) TJ (°C) Digikey Part No.     ADP121   150mA   3.3V   3.4-5.5V   0.09V @ 150mA   --   --   ADP121-AUJZ33R7CT-ND     ADP121   150mA   3.0V   3.1-5.5V   0.09V @ 150mA   --   --   ADP121-AUJZ30R7CT-ND     ADP122   300mA   3.3V   3.4-5.5V   0.085V @ 300mA   --   --   ADP122AUJZ-3.3-R7CT-ND     ADP1712   300mA   3.3V   3.5-5.5V   0.17V @ 300mA   --   --   ADP1712AUJZ-3.3-R7TR-ND     AP7311 (Low Cost)   150mA   3.3V   3.5-6V   0.15V @ 150mA   --   --   AP7311-33WG-7DICT-ND      LD39015M18R   150mA   1.8V   1.9V-5.5V   0.08V @ 100mA   --   --   497-6977-1-ND      LP2985A-33DBVR   150mA   3.3V   3.3-16V   0.28V @ 150mA   206   150   296-18479-1-ND      MCP1824T-3302E/OT   300mA   3.3V   3.5V-6V   0.2V @ 300mA   --   --   MCP1824T-3302E/OTCT-ND      MIC5205-2.5YM5 TR   150mA   2.5V   2.7-16V   0.165V @ 150mA   --   --   576-1257-2-ND     MIC5205-3.0YM5 TR   150mA   3.0V   3.2V-16V   0.165V @ 150mA   --   --   576-1258-2-ND     MIC5205-3.3YM5 TR   150mA   3.3V   3.5V-16V   0.165V @ 150mA   --   --   576-1259-2-ND     TPS780330220   150mA   3.3V+2.2V   3.6-5.5V   250mV Max   --   --   296-23332-1-ND     TDA3663/N1,135   100mA   3.3V   3.5-45V   0.18V @ 50mA   --   --   568-5343-1-ND\n\nMax operating temp can be calculated using θJA, TJ (max junction temperature), and power in watts.  Set the \"Maximum Ambient Temperature\" until it reaches TJ (\"Max Junction Temperature\"), which is the absolute limit for safe use of the regulator: http://www.daycounter.com/Calculators/Heat-Sink-Temperature-Calculator.phtml Heat Sink Temperature Calculator\n\nFor example, With 12V source into a 3.3V LP2985 and a 30mA load, we are dissipating (12V-3.3V) * 0.03A = 0.261W.  With a θJA of 206 °C/W, a TJ of 150°C, and 261mW we can safely use the chip without a heat sink up to 75°C (=147.1°C Junction Temperature)."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VREG_SOT23-5_1_0"
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy -7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "P4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BNO055 STEMMA QT-eagle-import:XTAL-3.2X1.5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at -2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit BNO055 STEMMA QT:XTAL3215"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low cost SMT crystals, no capacitors included\n\nhttp://www.ladyada.net/library/eagle"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "XTAL-3.2X1.5_1_0"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "P$2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BNO055 STEMMA QT-eagle-import:supply1_GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "supply1_GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 88.9 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "037f30bb-ab41-43b4-a99e-1b38fed945c4")
+	)
+	(junction
+		(at 88.9 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c8c80fe-cf40-4531-a990-e64a71c5d020")
+	)
+	(junction
+		(at 78.74 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fb52c25-6117-4c00-839b-9c9ef55cee12")
+	)
+	(junction
+		(at 251.46 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39da2431-1024-4afe-b1c9-f5f900ace73d")
+	)
+	(junction
+		(at 175.26 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c7b672d-1163-4735-a5c2-b750dfbabba4")
+	)
+	(junction
+		(at 27.94 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d55ff78-77fe-4ca4-84f9-5fb71c27a7d4")
+	)
+	(junction
+		(at 78.74 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4509f362-9fea-457f-ac74-de2cbbb95949")
+	)
+	(junction
+		(at 223.52 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "485babe0-7635-482d-915c-e8ed20e751ff")
+	)
+	(junction
+		(at 86.36 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52ddeb84-c5cb-4a61-b10b-026bd8dd41f3")
+	)
+	(junction
+		(at 139.7 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55585067-896e-44a3-9feb-133d7bdd8b5d")
+	)
+	(junction
+		(at 182.88 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b0d708f-b26b-4e38-8dca-f5a437e123ff")
+	)
+	(junction
+		(at 147.32 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72c019c3-78fc-4317-887a-978a65c5ed80")
+	)
+	(junction
+		(at 226.06 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7aac299a-d5db-4531-adc7-ce694765cd9d")
+	)
+	(junction
+		(at 27.94 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fc0d8a5-813b-4987-a6ab-e3fd9be7a9e8")
+	)
+	(junction
+		(at 149.86 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "819b852a-5d91-477d-8c48-83b74708dd56")
+	)
+	(junction
+		(at 251.46 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f373ce4-28d0-43a3-ba1a-fbabcee94882")
+	)
+	(junction
+		(at 40.64 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6334120-5bea-40f4-922c-518911557e2b")
+	)
+	(junction
+		(at 68.58 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a78dfea8-ea42-43ec-92e4-a5795d5529e5")
+	)
+	(junction
+		(at 88.9 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db550367-ce42-47bd-8cbb-b38fb9c6900a")
+	)
+	(junction
+		(at 66.04 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f88b03b6-86df-450e-96c9-a930f95ea5d8")
+	)
+	(wire
+		(pts
+			(xy 58.42 93.98) (xy 45.72 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "04e2925c-eae8-4425-b682-10f6be4f4436")
+	)
+	(wire
+		(pts
+			(xy 58.42 86.36) (xy 50.8 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0bc07edb-b13e-4401-93c2-23f67b00a149")
+	)
+	(wire
+		(pts
+			(xy 251.46 33.02) (xy 251.46 40.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0bde308e-7cb8-4484-be6c-87f380fd5d3c")
+	)
+	(wire
+		(pts
+			(xy 256.54 45.72) (xy 223.52 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0c0a070c-b933-4389-9b83-4eb6e88f941a")
+	)
+	(wire
+		(pts
+			(xy 132.08 104.14) (xy 149.86 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0ce120e5-1541-4591-8558-e25540725834")
+	)
+	(wire
+		(pts
+			(xy 91.44 106.68) (xy 88.9 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0d120551-727a-4a0b-9a04-05e6307bfb5e")
+	)
+	(wire
+		(pts
+			(xy 58.42 99.06) (xy 45.72 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0fa3762f-4dcc-4707-a032-d4c6b8e6369e")
+	)
+	(wire
+		(pts
+			(xy 223.52 43.18) (xy 256.54 43.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "11b875de-6412-4052-9623-64bb611c1f2d")
+	)
+	(wire
+		(pts
+			(xy 60.96 35.56) (xy 68.58 35.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "122dc7d6-d6a6-4bd7-939b-af456031cc98")
+	)
+	(wire
+		(pts
+			(xy 91.44 93.98) (xy 88.9 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "15c69803-ba54-49cf-b977-b5328a4e1672")
+	)
+	(wire
+		(pts
+			(xy 78.74 45.72) (xy 78.74 50.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1679eba0-9ef2-402f-9fb5-e7c2962f9d49")
+	)
+	(wire
+		(pts
+			(xy 68.58 45.72) (xy 68.58 50.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "16d1327a-e321-45b7-b126-2a62abca2707")
+	)
+	(wire
+		(pts
+			(xy 139.7 43.18) (xy 139.7 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "196e81ad-0880-4425-9e36-9a9579b557e1")
+	)
+	(wire
+		(pts
+			(xy 175.26 43.18) (xy 175.26 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1e673544-f89a-4e74-985d-b621f95f4a24")
+	)
+	(wire
+		(pts
+			(xy 27.94 48.26) (xy 27.94 43.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "20b5cec8-b854-4e24-b702-563c4de78a9b")
+	)
+	(wire
+		(pts
+			(xy 160.02 55.88) (xy 175.26 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "21f52862-9246-4f21-bbf9-eb41d1e67816")
+	)
+	(wire
+		(pts
+			(xy 132.08 106.68) (xy 160.02 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "23939aa2-69d5-41b9-8e2f-a3086a8a3d41")
+	)
+	(wire
+		(pts
+			(xy 27.94 48.26) (xy 27.94 50.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "25600022-6401-4519-af36-746de60d6004")
+	)
+	(wire
+		(pts
+			(xy 27.94 33.02) (xy 27.94 35.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2d634585-1489-4d7d-a698-e32edf09e2f4")
+	)
+	(wire
+		(pts
+			(xy 165.1 86.36) (xy 132.08 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2ebf8412-5292-4345-baaa-baba1caf3736")
+	)
+	(wire
+		(pts
+			(xy 88.9 104.14) (xy 86.36 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "306af9b3-2e5c-4e66-915d-0d167f0419a9")
+	)
+	(wire
+		(pts
+			(xy 132.08 88.9) (xy 149.86 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "31f6b8a6-41a3-4815-8b8e-2d496b90318e")
+	)
+	(wire
+		(pts
+			(xy 147.32 43.18) (xy 147.32 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "32e81cc2-d27b-49bb-be11-274f1503560f")
+	)
+	(wire
+		(pts
+			(xy 132.08 99.06) (xy 149.86 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "33b9a817-4a2a-4fca-8909-7d03cb81b972")
+	)
+	(wire
+		(pts
+			(xy 86.36 165.1) (xy 86.36 182.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "38c22dc7-0eaa-470c-a09c-d7602f2af2fd")
+	)
+	(wire
+		(pts
+			(xy 88.9 101.6) (xy 88.9 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "393388da-3abb-4e37-9a0f-57669d9c7e52")
+	)
+	(wire
+		(pts
+			(xy 170.18 106.68) (xy 172.72 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3a2fe4ff-61b5-4c76-9236-75c9a7989dcc")
+	)
+	(wire
+		(pts
+			(xy 140.97 153.67) (xy 165.1 153.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3ba9b204-ac57-44f7-b420-10efe4a0b331")
+	)
+	(wire
+		(pts
+			(xy 50.8 86.36) (xy 50.8 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3e2dd61e-2541-4c7c-83e8-17c808643019")
+	)
+	(wire
+		(pts
+			(xy 226.06 33.02) (xy 223.52 33.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "44dbd360-7f85-4dd7-8edd-861796d11066")
+	)
+	(wire
+		(pts
+			(xy 182.88 45.72) (xy 198.12 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4511a846-4109-4777-a5ee-b596f91f9142")
+	)
+	(wire
+		(pts
+			(xy 182.88 33.02) (xy 182.88 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "452310af-3180-41e7-9106-d37812365a32")
+	)
+	(wire
+		(pts
+			(xy 140.97 151.13) (xy 165.1 151.13)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "461b14ca-3482-44e1-a643-2d38364b1516")
+	)
+	(wire
+		(pts
+			(xy 175.26 33.02) (xy 175.26 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "47978e6a-d127-486b-b158-5359b8351569")
+	)
+	(wire
+		(pts
+			(xy 88.9 81.28) (xy 88.9 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "480189b2-0882-4887-933b-4aecd83ef00d")
+	)
+	(wire
+		(pts
+			(xy 58.42 96.52) (xy 45.72 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4b84426b-2bea-4fc3-88b8-d669d2a04540")
+	)
+	(wire
+		(pts
+			(xy 223.52 48.26) (xy 256.54 48.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4ff86277-977b-417a-8d59-1f81b7e7f9f3")
+	)
+	(wire
+		(pts
+			(xy 40.64 38.1) (xy 40.64 35.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "53323833-716f-49f3-8fc4-d299f7a2c1d0")
+	)
+	(wire
+		(pts
+			(xy 78.74 88.9) (xy 76.2 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "54952b18-c396-4a76-8ebe-17f20b2ba88f")
+	)
+	(wire
+		(pts
+			(xy 139.7 30.48) (xy 139.7 33.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "58cd19fc-acb1-4056-bc8a-163db066e17b")
+	)
+	(wire
+		(pts
+			(xy 83.82 127) (xy 78.74 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5d094d4a-8dc2-4bd0-a63f-83b4ba48178c")
+	)
+	(wire
+		(pts
+			(xy 91.44 111.76) (xy 78.74 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5d32b552-3ad8-4dc3-be3a-2a57bb89d7b6")
+	)
+	(wire
+		(pts
+			(xy 175.26 55.88) (xy 198.12 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5fa6b4b6-f102-4a02-a253-7bc17a612b2e")
+	)
+	(wire
+		(pts
+			(xy 157.48 50.8) (xy 157.48 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6266eac1-99fc-43cc-ba1c-6f7fd83b6397")
+	)
+	(wire
+		(pts
+			(xy 88.9 83.82) (xy 88.9 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6abfb034-4ccf-4204-8023-72f44bd84ac6")
+	)
+	(wire
+		(pts
+			(xy 78.74 111.76) (xy 76.2 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6e6b3107-b858-4c3d-bc86-ae7742994c26")
+	)
+	(wire
+		(pts
+			(xy 140.97 148.59) (xy 165.1 148.59)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6eae32ef-3a9c-4c90-a20c-b49e8fd3c749")
+	)
+	(wire
+		(pts
+			(xy 60.96 182.88) (xy 86.36 182.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6f12ad4d-db27-487a-b0d2-da53fa2f69a9")
+	)
+	(wire
+		(pts
+			(xy 132.08 81.28) (xy 144.78 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7090138f-1284-43ab-b7cd-80f1ca7b6564")
+	)
+	(wire
+		(pts
+			(xy 68.58 35.56) (xy 68.58 38.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "71dcf46d-0e13-4413-a5e6-d2b73e84b21d")
+	)
+	(polyline
+		(pts
+			(xy 106.68 66.04) (xy 208.28 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "72dc0d4e-a644-4123-9e07-01db796563e7")
+	)
+	(wire
+		(pts
+			(xy 170.18 45.72) (xy 182.88 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "75f04fb0-e0ef-4ffb-94b6-9c05e1a73801")
+	)
+	(wire
+		(pts
+			(xy 88.9 106.68) (xy 88.9 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "785da9f3-c1a3-4980-a076-983421983a25")
+	)
+	(wire
+		(pts
+			(xy 40.64 40.64) (xy 38.1 40.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "78991c85-6d3e-4547-a515-4633863bc04c")
+	)
+	(wire
+		(pts
+			(xy 68.58 127) (xy 66.04 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "843ea9b7-a3ee-40d3-b814-45bc2ec45a3f")
+	)
+	(wire
+		(pts
+			(xy 226.06 30.48) (xy 226.06 33.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "85f92a8c-7b3c-4214-b47a-557b2412056b")
+	)
+	(wire
+		(pts
+			(xy 91.44 101.6) (xy 88.9 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8851df3c-4809-4a72-ac30-b7adad140db4")
+	)
+	(wire
+		(pts
+			(xy 147.32 45.72) (xy 121.92 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8a59a77f-47a8-4263-8bea-b63ebf0788da")
+	)
+	(wire
+		(pts
+			(xy 251.46 30.48) (xy 251.46 33.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9095736f-b7ea-4c84-870d-456a5e462956")
+	)
+	(wire
+		(pts
+			(xy 78.74 114.3) (xy 78.74 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9406642f-f129-4e49-9482-583d834a68d8")
+	)
+	(wire
+		(pts
+			(xy 78.74 127) (xy 76.2 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "95d2d0b1-9ac0-4989-82b3-fa149b1e13b8")
+	)
+	(wire
+		(pts
+			(xy 140.97 156.21) (xy 165.1 156.21)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "969f21e1-d82b-4c9a-8733-b199bbc7370e")
+	)
+	(polyline
+		(pts
+			(xy 208.28 66.04) (xy 274.32 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "96f3af12-85a8-43bf-a6ac-b858e455271e")
+	)
+	(wire
+		(pts
+			(xy 149.86 96.52) (xy 154.94 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9710941e-551d-4fb5-98c6-d194ab8ee09a")
+	)
+	(wire
+		(pts
+			(xy 96.52 30.48) (xy 96.52 33.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9d55445f-aa41-4223-ab49-421f09e1b765")
+	)
+	(wire
+		(pts
+			(xy 86.36 154.94) (xy 86.36 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9fbb1fa2-d7b4-443e-84da-6266d7ee5732")
+	)
+	(wire
+		(pts
+			(xy 78.74 124.46) (xy 78.74 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a685e389-de0d-42b6-8de6-d548051941e2")
+	)
+	(wire
+		(pts
+			(xy 132.08 111.76) (xy 134.62 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a6a0185a-e87b-4a9c-aded-65bb482c2b71")
+	)
+	(wire
+		(pts
+			(xy 43.18 88.9) (xy 43.18 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a974932c-de62-4406-9357-671fc9f07e69")
+	)
+	(wire
+		(pts
+			(xy 160.02 45.72) (xy 147.32 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a9d724d1-90cb-49f8-a8f7-df07a5055121")
+	)
+	(wire
+		(pts
+			(xy 147.32 33.02) (xy 147.32 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "aa017fcb-8d55-435b-91bc-834b3c0dead4")
+	)
+	(wire
+		(pts
+			(xy 182.88 43.18) (xy 182.88 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ab75dfa7-2b50-48c8-b9e9-1bbb2c599abe")
+	)
+	(wire
+		(pts
+			(xy 83.82 116.84) (xy 83.82 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ac43e50a-e213-476a-aed9-13e9a7db204a")
+	)
+	(wire
+		(pts
+			(xy 132.08 83.82) (xy 144.78 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ae1dcf73-d15d-4222-9002-592644b94c80")
+	)
+	(wire
+		(pts
+			(xy 91.44 104.14) (xy 88.9 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "af77b429-268f-41e8-945f-be337a5edd0a")
+	)
+	(wire
+		(pts
+			(xy 68.58 111.76) (xy 66.04 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b1dacb66-1502-4a46-a41b-35528c704432")
+	)
+	(polyline
+		(pts
+			(xy 20.32 66.04) (xy 86.36 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b2ff86c0-27bf-4eed-9a4d-24d788c16bff")
+	)
+	(wire
+		(pts
+			(xy 58.42 88.9) (xy 43.18 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b6543ddd-44ca-4ce1-bb5c-e00d3dfd84b2")
+	)
+	(wire
+		(pts
+			(xy 78.74 33.02) (xy 78.74 38.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b9547e72-e5ff-42a5-868d-71dc3d46551a")
+	)
+	(wire
+		(pts
+			(xy 165.1 88.9) (xy 160.02 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ba9e9f72-d203-444f-99a5-2c2d32067eb4")
+	)
+	(wire
+		(pts
+			(xy 38.1 40.64) (xy 38.1 48.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bddab357-5604-4b02-92a6-a3d9f7480912")
+	)
+	(wire
+		(pts
+			(xy 91.44 81.28) (xy 88.9 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c1719534-bc48-41b2-b464-641306173fae")
+	)
+	(polyline
+		(pts
+			(xy 274.32 22.86) (xy 274.32 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c1b345e6-9585-45c2-a956-2d9b60735457")
+	)
+	(wire
+		(pts
+			(xy 58.42 91.44) (xy 68.58 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c1c95b32-546c-4cb4-bfff-4fb79c5658f2")
+	)
+	(wire
+		(pts
+			(xy 223.52 33.02) (xy 223.52 40.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c2681d6f-2256-40de-a415-3dd94682706f")
+	)
+	(wire
+		(pts
+			(xy 96.52 45.72) (xy 96.52 43.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c2db6077-eed6-4ee7-8fd0-e9610a9e5b7b")
+	)
+	(polyline
+		(pts
+			(xy 86.36 22.86) (xy 86.36 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c3dde4bb-04a2-4cec-80c0-727adbe96907")
+	)
+	(wire
+		(pts
+			(xy 88.9 93.98) (xy 88.9 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c3feb6bc-9324-42a1-b1da-4cecf5a74d53")
+	)
+	(wire
+		(pts
+			(xy 132.08 93.98) (xy 144.78 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cbd634c0-caec-4a5b-8a0b-eb5db6703ec6")
+	)
+	(wire
+		(pts
+			(xy 91.44 116.84) (xy 83.82 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ccdbeb86-e7e9-4add-8c0d-22aa3707162d")
+	)
+	(wire
+		(pts
+			(xy 149.86 55.88) (xy 139.7 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cda02884-f0c2-4fc1-be66-f6212c56153e")
+	)
+	(wire
+		(pts
+			(xy 149.86 88.9) (xy 149.86 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cdcc33fb-f8ee-441c-bad2-280155ab247c")
+	)
+	(wire
+		(pts
+			(xy 38.1 48.26) (xy 27.94 48.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ce7ea20d-877b-4f6b-b448-31f57c593933")
+	)
+	(polyline
+		(pts
+			(xy 86.36 66.04) (xy 106.68 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cedfc31e-8d09-4b63-98fb-52a5d89c2d91")
+	)
+	(wire
+		(pts
+			(xy 256.54 40.64) (xy 251.46 40.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cf8431e6-76eb-4a39-aa51-b690f61c559f")
+	)
+	(wire
+		(pts
+			(xy 91.44 96.52) (xy 88.9 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d12a531b-ca97-4496-adc1-e22597c83780")
+	)
+	(wire
+		(pts
+			(xy 66.04 111.76) (xy 66.04 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d32e780f-6a47-4d70-9489-30c023aff4c6")
+	)
+	(wire
+		(pts
+			(xy 66.04 127) (xy 66.04 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d5e7cbd4-2a64-40e0-84b4-064714f3e601")
+	)
+	(wire
+		(pts
+			(xy 251.46 40.64) (xy 223.52 40.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "da57642b-4554-4aac-815a-3802e0462b4f")
+	)
+	(wire
+		(pts
+			(xy 160.02 104.14) (xy 172.72 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dccb9a28-8fee-42db-9070-c961f5867246")
+	)
+	(polyline
+		(pts
+			(xy 208.28 22.86) (xy 208.28 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e157f432-37bb-47d6-8fc8-cccd31bbebe2")
+	)
+	(wire
+		(pts
+			(xy 116.84 182.88) (xy 142.24 182.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e1828b1f-b070-48de-b615-9a9985f811ea")
+	)
+	(wire
+		(pts
+			(xy 40.64 35.56) (xy 27.94 35.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e4cca101-5750-4f8a-a53c-499c61f5a88f")
+	)
+	(wire
+		(pts
+			(xy 86.36 182.88) (xy 111.76 182.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e8dfb0b3-6e87-4cfe-b050-e07ca519defe")
+	)
+	(wire
+		(pts
+			(xy 68.58 35.56) (xy 68.58 33.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e9c593d9-9159-486f-9fc3-14e103407896")
+	)
+	(wire
+		(pts
+			(xy 88.9 96.52) (xy 86.36 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ee27ae8a-f0c7-42fa-90d3-11178b56e0a4")
+	)
+	(wire
+		(pts
+			(xy 167.64 40.64) (xy 167.64 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ef35b429-2a2c-439b-9656-61c0ac4647ea")
+	)
+	(wire
+		(pts
+			(xy 134.62 116.84) (xy 132.08 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f18ef7d7-be6d-4920-8007-939a6479006d")
+	)
+	(polyline
+		(pts
+			(xy 106.68 22.86) (xy 106.68 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f377abcb-78a4-4fe9-9b0c-9f4492d9faf9")
+	)
+	(wire
+		(pts
+			(xy 91.44 83.82) (xy 88.9 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f66e2826-06b5-427b-9cca-d05dab8e5e47")
+	)
+	(wire
+		(pts
+			(xy 91.44 88.9) (xy 86.36 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fc049a6e-a5ad-4802-8793-90ff68c6d2ba")
+	)
+	(wire
+		(pts
+			(xy 139.7 55.88) (xy 121.92 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fefecc38-787d-4840-96c9-7e5eecf8866b")
+	)
+	(text "S"
+		(exclude_from_sim no)
+		(at 160.02 58.42 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "01aef0f5-1965-4d1a-af5d-b628298108ea")
+	)
+	(text "I2C Pullups & Shift"
+		(exclude_from_sim no)
+		(at 111.76 63.5 0)
+		(effects
+			(font
+				(size 2.1844 1.8567)
+			)
+			(justify left bottom)
+		)
+		(uuid "68e19106-bbc2-4f6f-aa0f-3cee93af3b15")
+	)
+	(text "G"
+		(exclude_from_sim no)
+		(at 154.94 50.8 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "a30b941d-331b-4106-8ab5-7b55fccb55c0")
+	)
+	(text "ON LED"
+		(exclude_from_sim no)
+		(at 88.9 63.5 0)
+		(effects
+			(font
+				(size 2.1844 1.8567)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb9fbaab-3ccf-4c42-ae4f-a69260ba9849")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 149.86 58.42 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "cde15de0-0731-4baf-90ca-5a1c1153edf8")
+	)
+	(text "STEMMA/I2C Headers"
+		(exclude_from_sim no)
+		(at 210.82 63.5 0)
+		(effects
+			(font
+				(size 2.1844 1.8567)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf199237-2514-4fc9-9ff1-bf2038d3310d")
+	)
+	(text "Power supply"
+		(exclude_from_sim no)
+		(at 25.4 63.5 0)
+		(effects
+			(font
+				(size 2.1844 1.8567)
+			)
+			(justify left bottom)
+		)
+		(uuid "f69885e0-29ca-44a6-b2d6-531ee38ccd30")
+	)
+	(label "PS0_3V"
+		(at 140.97 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "0edeb045-1a5c-4898-a11e-7c057cdaf6a8")
+	)
+	(label "VCC"
+		(at 238.76 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "19efa4bc-347a-48b9-aa6e-decdef502c75")
+	)
+	(label "PS0_3V"
+		(at 134.62 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ec8272b-4b91-4e99-a80b-ba2aa9839b2e")
+	)
+	(label "SDA"
+		(at 238.76 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "26656d9c-45bd-4d59-a138-c6234f86b450")
+	)
+	(label "I2CADDR_3V"
+		(at 140.97 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ba1afd3-6e7f-4d4e-b279-81524b020cf7")
+	)
+	(label "SCL_3V"
+		(at 198.12 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "50bd7ac5-d8a4-472a-a205-2fda7e5ca01f")
+	)
+	(label "RESET"
+		(at 132.08 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "64f50201-2834-4aee-8451-c02512a05b13")
+	)
+	(label "I2CADDR_3V"
+		(at 134.62 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "66f4bd16-3502-4bf7-9f88-f0b7f32c2ce0")
+	)
+	(label "SCL"
+		(at 45.72 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "695dc508-385f-4a18-9144-4e2386c43cfb")
+	)
+	(label "SDA_3V"
+		(at 134.62 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "73a97e83-063a-4acf-9317-f5ffdf87a64b")
+	)
+	(label "GND"
+		(at 238.76 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b36f749-8969-4b0b-8cb3-21a0b5f34312")
+	)
+	(label "RESET"
+		(at 45.72 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e7bf996-b157-43f4-afb7-d0a8c55affe1")
+	)
+	(label "PS1_3V"
+		(at 134.62 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "998766c8-0326-46b6-be0c-d3ef7458543e")
+	)
+	(label "SCL"
+		(at 132.08 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0635a81-d553-4d11-a8ed-bd4fc9bfc358")
+	)
+	(label "NRESET_3V"
+		(at 134.62 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac6130cb-1053-4468-99f4-9ca7e3a95e50")
+	)
+	(label "SDA"
+		(at 45.72 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0657cd9-e66a-46cb-9264-d7271059f21d")
+	)
+	(label "SCL"
+		(at 238.76 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "c52b7b0f-b0ff-4b85-bd2d-df9155db1515")
+	)
+	(label "PS1_3V"
+		(at 140.97 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "c85fb2d2-2738-4a85-8d7c-a61b7190ceb3")
+	)
+	(label "INT_3V"
+		(at 134.62 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9215629-a574-498d-a328-32dec0cf80d2")
+	)
+	(label "SDA"
+		(at 132.08 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9fbb1c8-63f9-41be-8842-45cdec5ebfeb")
+	)
+	(label "NRESET_3V"
+		(at 60.96 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0865e3a-4fba-4dd0-ae5d-7f7d9d9d4708")
+	)
+	(label "SDA_3V"
+		(at 198.12 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "edd7734e-cfdb-45bf-a566-f488ebdcdeb4")
+	)
+	(label "SCL_3V"
+		(at 134.62 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8d0b66f-c109-466e-b636-dd3af002fe50")
+	)
+	(label "INT_3V"
+		(at 140.97 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe87a9a6-1c55-4493-9d06-192d72934fd8")
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:RESISTOR_4PACK")
+		(at 165.1 106.68 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0272513a-fafc-4b0d-a936-908d906c30f5")
+		(property "Reference" "R2"
+			(at 165.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:RESPACK_4X0603"
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "383851b5-e844-4f0f-bfbc-1fdac96c19c6")
+		)
+		(pin "6"
+			(uuid "d9b3ac1a-192c-4136-a999-306fb8599324")
+		)
+		(pin "1"
+			(uuid "3d8c9da2-17c2-45f4-a931-96aa7ecdecad")
+		)
+		(pin "8"
+			(uuid "b9b8888a-86db-48ff-942e-bd731903dcda")
+		)
+		(pin "2"
+			(uuid "561671a5-e364-4c0a-90bb-20b7e66688ce")
+		)
+		(pin "3"
+			(uuid "d7a58323-6620-45bd-b4fe-a33d7109dfdb")
+		)
+		(pin "4"
+			(uuid "a24d3022-7923-40d3-b538-b8c15fdcffe1")
+		)
+		(pin "5"
+			(uuid "4b394e01-73f8-4a0f-ac2f-16a7036cb2d6")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "R2")
+					(unit 4)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "R6")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:3.3V")
+		(at 43.18 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a4a9785-a1ff-4ddf-a307-b1401716370a")
+		(property "Reference" "#U$02"
+			(at 43.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 41.656 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6db43e8-7077-4ade-a5d5-d59f0ef3155a")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$02")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:MOSFET-N_DUAL")
+		(at 165.1 43.18 90)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "101c98bb-421f-4595-a9d4-ccfdf54e44a2")
+		(property "Reference" "Q1"
+			(at 164.465 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 166.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:SOT363"
+			(at 165.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "6af93f7c-aa5d-4e70-9b35-1c66cd51802a")
+		)
+		(pin "3"
+			(uuid "1719b5d2-efa8-4b0f-ae35-ec7bb0d53ce3")
+		)
+		(pin "1"
+			(uuid "30f36a0c-0715-4dd6-8928-244c8e2d5f08")
+		)
+		(pin "6"
+			(uuid "d72335fd-f2ae-4938-818e-4e8c05e217f7")
+		)
+		(pin "4"
+			(uuid "7f312d3b-ae28-4702-b4d5-0cc7ffdc5af2")
+		)
+		(pin "2"
+			(uuid "884d1d88-c601-458e-a38e-bfc3cdd597e4")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "Q1")
+					(unit 2)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "Q2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:3.3V")
+		(at 68.58 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11cec2c5-8d41-4581-b901-dbdf4f66ea33")
+		(property "Reference" "#U$04"
+			(at 68.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 67.056 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a366f058-644a-4ee1-8a87-ae5c9e3dc1d5")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$04")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:3.3V")
+		(at 182.88 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14a4d671-b0a2-4408-9dbc-64f0ab67266d")
+		(property "Reference" "#U$025"
+			(at 182.88 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 184.404 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfbacb0b-5a4c-4ad0-b69c-926813efdfab")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$025")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:RESISTOR_0603_NOOUT")
+		(at 86.36 160.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16eff205-d2d7-40cc-972b-e31255a9be94")
+		(property "Reference" "R1"
+			(at 88.9 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 86.36 160.02 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:0603-NO"
+			(at 86.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "475b61dc-58c0-4fa5-ae57-7306e9eb8909")
+		)
+		(pin "1"
+			(uuid "dfaebccd-586d-4317-b682-5dfdd045c587")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:GND")
+		(at 175.26 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c7eced9-5b89-4de2-8f79-4a6b5f6d373f")
+		(property "Reference" "#U$024"
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4006839-664a-4a17-8bfe-0a2c4d0300c8")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$024")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:RESISTOR_4PACK")
+		(at 154.94 104.14 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ca4db77-cd24-49a8-9988-356d0d8fdd68")
+		(property "Reference" "R2"
+			(at 154.94 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 154.94 104.14 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:RESPACK_4X0603"
+			(at 154.94 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8e97b32-3364-4cd9-ab85-5f6dbd6d69f0")
+		)
+		(pin "8"
+			(uuid "faa91555-00d7-43cc-9ebf-22d0eb2c12a9")
+		)
+		(pin "2"
+			(uuid "b521b9ae-6d01-403c-aae8-e4042c1d16c7")
+		)
+		(pin "7"
+			(uuid "843cd708-49ad-4561-9544-a3a633acbd5e")
+		)
+		(pin "6"
+			(uuid "ec56cbdc-e8be-42a2-9293-36c94abe8196")
+		)
+		(pin "3"
+			(uuid "489807b2-b77e-4489-993a-fe02cf45ff29")
+		)
+		(pin "5"
+			(uuid "4eee6927-1782-46f9-a3e8-d40e13636c48")
+		)
+		(pin "4"
+			(uuid "6b0a3d0a-0642-4cb0-a085-1b4fe762cdb5")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "R2")
+					(unit 3)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "R6")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:GND")
+		(at 78.74 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d90b2b3-5801-4645-8d33-280e95901f00")
+		(property "Reference" "#U$09"
+			(at 78.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.216 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7b0a853-aa26-4c7d-995e-e550f52b21b1")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$09")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:CAP_CERAMIC0603_NO")
+		(at 73.66 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "217c51fa-3417-4ee0-a356-d516b8933c92")
+		(property "Reference" "C4"
+			(at 72.41 129.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22pF"
+			(at 72.41 124.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:0603-NO"
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "086cdef3-ea98-4e2a-848e-49cd285e0157")
+		)
+		(pin "2"
+			(uuid "85d8f331-bb30-4af8-bcf1-f19ae782381a")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:XTAL-3.2X1.5")
+		(at 78.74 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25c98b2b-5e22-4f11-9bdf-3575cca10b18")
+		(property "Reference" "X1"
+			(at 74.93 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "32.768"
+			(at 83.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:XTAL3215"
+			(at 78.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "6327b717-6e65-4550-a0fe-b0ad618706ea")
+		)
+		(pin "P$1"
+			(uuid "6e234567-df84-40ae-8d99-e57b17a92b91")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:STEMMA_I2C_QT")
+		(at 256.54 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26bae21c-593e-4194-a058-41581b169987")
+		(property "Reference" "CONN2"
+			(at 252.73 37.465 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "STEMMA_I2C_QT"
+			(at 252.73 53.34 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:JST_SH4"
+			(at 256.54 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3c57c700-9a1e-489e-8062-880e3c3993be")
+		)
+		(pin "MT1"
+			(uuid "0ab475a2-a59c-46ec-926a-15d4a9893627")
+		)
+		(pin "1"
+			(uuid "6970c208-307d-44b7-be67-edf0934ba220")
+		)
+		(pin "3"
+			(uuid "03a94580-400a-45a8-89e7-c503744518bb")
+		)
+		(pin "4"
+			(uuid "af85cde2-5893-4af0-a517-4663c0abbdd1")
+		)
+		(pin "MT2"
+			(uuid "a01d196d-e80c-4daa-9796-c79109b5eaa7")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "CONN2")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "CONN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:RESISTOR_4PACK")
+		(at 154.94 88.9 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b80ebd1-05d1-4788-bb83-39e950cb2493")
+		(property "Reference" "R2"
+			(at 154.94 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 154.94 88.9 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:RESPACK_4X0603"
+			(at 154.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "4f887976-7c38-4fac-aa8a-9327a11bc71a")
+		)
+		(pin "8"
+			(uuid "2ca53a42-af5d-4f9b-a172-58f474923013")
+		)
+		(pin "5"
+			(uuid "8ceea3f7-eaf6-4ec0-b112-2aab9e1053b6")
+		)
+		(pin "1"
+			(uuid "aab3154a-26a3-4bba-ac72-43f78ff3d016")
+		)
+		(pin "4"
+			(uuid "d34837dd-6963-4541-9e91-6075c7dcfc5a")
+		)
+		(pin "3"
+			(uuid "16e888d9-0d8b-448d-958a-e86f0e92c125")
+		)
+		(pin "6"
+			(uuid "929ddc24-459d-4a81-97e6-8b701415fdb6")
+		)
+		(pin "2"
+			(uuid "b15d9715-f1eb-4b9e-a50f-56c335a1d15e")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "R2")
+					(unit 2)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "R6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:CAP_CERAMIC0603_NO")
+		(at 83.82 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3008cf9b-8a35-4b29-9e13-efc9e7cd96da")
+		(property "Reference" "C6"
+			(at 82.57 91.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 82.57 86.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:0603-NO"
+			(at 83.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7d9e1c5-c875-45f1-9ec3-6f7d74da8406")
+		)
+		(pin "2"
+			(uuid "04951f67-6356-468c-82d5-ec4d5da4ce7f")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:RESISTOR_4PACK")
+		(at 147.32 38.1 270)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3338febc-89dc-4a3c-8969-0316955074fd")
+		(property "Reference" "R3"
+			(at 149.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 147.32 38.1 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:RESPACK_4X0603"
+			(at 147.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e6d153eb-ead2-4fa9-a553-6dafe42b4109")
+		)
+		(pin "3"
+			(uuid "4b47d90f-ee96-4c39-b4b7-877379204aed")
+		)
+		(pin "4"
+			(uuid "790f4a24-0a80-4bcd-a6b8-2b86d6b74006")
+		)
+		(pin "1"
+			(uuid "08b3aaa8-7b78-4a22-af43-22addf4a6a37")
+		)
+		(pin "7"
+			(uuid "f1099f89-6a3d-41f2-8e15-6ff244c96cd5")
+		)
+		(pin "6"
+			(uuid "98853020-fd32-469b-9e24-bcad5ef73787")
+		)
+		(pin "5"
+			(uuid "6d967a52-3edd-4426-abed-655734b644aa")
+		)
+		(pin "8"
+			(uuid "afd96689-650f-4560-8bfb-07d6a7dc90bb")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "R3")
+					(unit 3)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "R7")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:3.3V")
+		(at 96.52 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3374d704-61d0-4776-a612-05ca387cbbfa")
+		(property "Reference" "#U$014"
+			(at 96.52 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 94.996 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22f65b60-0b45-4996-9359-5ae8d02970b7")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$014")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:3.3V")
+		(at 167.64 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "338e89ec-22e6-4011-a784-3ba2098d4226")
+		(property "Reference" "#U$018"
+			(at 167.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 169.164 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94b42ca0-2c20-4afe-a626-0b4e386ccdd4")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$018")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:3.3V")
+		(at 137.16 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3599cac1-9e4f-4b9b-8b4f-b1ea6494c137")
+		(property "Reference" "#U$016"
+			(at 137.16 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 138.176 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c68ebd60-aae3-4669-81fa-2ca02f2e14c4")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$016")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:VREG_SOT23-5")
+		(at 50.8 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "399f7825-1d2c-44a7-9c8d-35c9c273d165")
+		(property "Reference" "U1"
+			(at 43.18 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "AP2112K-3.3"
+			(at 43.18 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:SOT23-5"
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "a2a18ce0-1c6c-4717-b7d2-156dd0d113b9")
+		)
+		(pin "1"
+			(uuid "8f1f64dc-2b3c-4989-af2a-6d148a7e4242")
+		)
+		(pin "2"
+			(uuid "f3232b81-6275-489d-bcf8-a4637a1dd2d7")
+		)
+		(pin "4"
+			(uuid "911360f0-d75c-4e4b-a89a-7cc2b2065e9b")
+		)
+		(pin "3"
+			(uuid "9b7e2832-0ff3-46dd-8b15-918cc0db0e2a")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:GND")
+		(at 167.64 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49309878-a0da-4778-864f-928a097b29a6")
+		(property "Reference" "#U$020"
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90fc7b59-cf0b-49e8-a8a5-32254a7fde8d")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$020")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:HEADER-1X670MIL")
+		(at 60.96 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4993c755-19fe-4d96-94cc-e420c16246c4")
+		(property "Reference" "JP1"
+			(at 54.61 83.185 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "HEADER-1X670MIL"
+			(at 54.61 104.14 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:1X06_ROUND_70"
+			(at 60.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c956cf8-e2ca-4d8b-866a-8f09f2a0c410")
+		)
+		(pin "4"
+			(uuid "96b9a0d3-879c-4318-b0b4-ee9b72001134")
+		)
+		(pin "6"
+			(uuid "4fa4e81c-13c1-4e9c-a6b2-7c898ef0e073")
+		)
+		(pin "5"
+			(uuid "6360f519-6660-4158-9e33-f4b44423c91a")
+		)
+		(pin "3"
+			(uuid "a6850e59-812f-49c1-9642-8a1a31529b48")
+		)
+		(pin "2"
+			(uuid "f47c6510-d947-4b9b-96f5-5bea1c502cb3")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
+		(at 68.58 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d320646-8570-4119-b11b-1b9f3940f408")
+		(property "Reference" "C2"
+			(at 66.29 41.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 70.88 41.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:0805-NO"
+			(at 68.58 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba003bad-5a8b-46a0-9b07-661d17f7e649")
+		)
+		(pin "1"
+			(uuid "7f2976a0-b15b-44bd-a5d8-0b93ae7839bc")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:GND")
+		(at 83.82 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e661eaa-c7c6-4bcb-8180-03bc252ea316")
+		(property "Reference" "#U$011"
+			(at 83.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d76bd1d5-3ea5-40a1-b155-f5003989725c")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$011")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:GND")
+		(at 167.64 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "540dbea8-4f7c-4653-8ffd-7c71495da00c")
+		(property "Reference" "#U$019"
+			(at 167.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0844b51f-025f-4c3c-8ca0-448bfc415018")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$019")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
+		(at 27.94 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "659f5ba6-af03-4cd4-8341-b81652c24a94")
+		(property "Reference" "C1"
+			(at 25.65 39.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 30.24 39.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:0805-NO"
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b7eed75-ed0c-4e48-a8f1-4a9b85adfe84")
+		)
+		(pin "1"
+			(uuid "cc8f3408-f173-44a6-8386-1ab36c9d3e0b")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:GND")
+		(at 66.04 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68aa6584-6c2f-4257-a83a-5740cc7090d9")
+		(property "Reference" "#U$03"
+			(at 66.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.516 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fae432b6-26c2-48e7-8c0f-cab654a6cea2")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$03")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:RESISTOR_4PACK")
+		(at 182.88 38.1 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c5190ae-8cc9-4d17-aa25-7d1dc072a17c")
+		(property "Reference" "R3"
+			(at 180.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 182.88 38.1 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:RESPACK_4X0603"
+			(at 182.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "1407d7e8-763a-455c-8cb4-263414ed2386")
+		)
+		(pin "2"
+			(uuid "4822a385-2c73-4006-b2ea-cfdcceb005ee")
+		)
+		(pin "5"
+			(uuid "787b20df-ea40-49b0-b10c-5e4ed49f405e")
+		)
+		(pin "8"
+			(uuid "84090ec3-7673-40f9-9a30-e637c1d0640a")
+		)
+		(pin "1"
+			(uuid "3fb21b4c-1b6e-435a-84c1-ec4db957eef8")
+		)
+		(pin "3"
+			(uuid "0e73ef88-0982-4c64-a225-95dcbb91bb3c")
+		)
+		(pin "7"
+			(uuid "9fd4bb39-1622-44bc-b37a-887cf93e5476")
+		)
+		(pin "4"
+			(uuid "a7e8bda2-3216-4684-ab32-a1f8e0683e39")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:3.3V")
+		(at 157.48 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d5c9343-a961-4add-b310-63b7295bff87")
+		(property "Reference" "#U$017"
+			(at 157.48 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 159.004 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4488362-2312-4c4e-bbfd-172bf633f6f2")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$017")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:3.3V")
+		(at 175.26 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70046a7b-4da0-4439-9cbb-019f4ddbe7a0")
+		(property "Reference" "#U$022"
+			(at 175.26 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 176.784 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5a4ecfa-f41c-46ad-92ab-579bc30ea869")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$022")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:3.3V")
+		(at 137.16 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76967ff5-8211-4935-bd47-7f5db7d7f11b")
+		(property "Reference" "#U$015"
+			(at 137.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 138.176 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57c847ee-c942-4aca-ab40-b8c33d1c2c58")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$015")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:3.3V")
+		(at 78.74 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "789beb4f-269b-449f-aaec-7ec25cd79aa8")
+		(property "Reference" "#U$08"
+			(at 78.74 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 77.216 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cd1a0a6-8af7-4bfc-bf88-ada7be3425f3")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$08")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:VCC")
+		(at 139.7 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81c5fecd-ba84-46c7-b023-6a221242f6c4")
+		(property "Reference" "#P+03"
+			(at 139.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 137.16 30.48 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbb3271f-87fa-4d59-a960-5feef567fa1f")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#P+03")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#P+07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:SOLDERJUMPER")
+		(at 160.02 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85a6c21d-2165-43a2-9dba-e7bc644bc066")
+		(property "Reference" "SJ1"
+			(at 157.48 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SOLDERJUMPER"
+			(at 157.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:SOLDERJUMPER_ARROW_NOPASTE"
+			(at 160.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e3fdaa2-f059-4561-89d5-6bb6c95044ba")
+		)
+		(pin "2"
+			(uuid "756a0028-e618-4dac-a76d-8a544ff31b92")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "SJ1")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "SJ2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:RESISTOR_4PACK")
+		(at 139.7 38.1 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "879124fd-b401-47bd-acf1-4d77e8f23d01")
+		(property "Reference" "R3"
+			(at 142.24 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:RESPACK_4X0603"
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ea8f582a-d3b4-40f5-9a50-6386a2f1e328")
+		)
+		(pin "1"
+			(uuid "defb53d2-eb71-411b-be5d-a500a85d1ae4")
+		)
+		(pin "7"
+			(uuid "8abe9f96-f135-4922-8fa8-b22489077db2")
+		)
+		(pin "8"
+			(uuid "3ce4279f-e0af-4338-bdd5-4899461e6ffc")
+		)
+		(pin "3"
+			(uuid "f67c1f81-5f4d-40c6-b893-c8d09b58dfca")
+		)
+		(pin "2"
+			(uuid "bf11b1d6-35c6-4973-bae7-5f0b3ea3a541")
+		)
+		(pin "6"
+			(uuid "e0418610-7e0b-4fd1-8562-3db4871b2ada")
+		)
+		(pin "4"
+			(uuid "bdf15fbb-b39c-4147-aca9-818e091eca80")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "R3")
+					(unit 2)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "R7")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:VCC")
+		(at 147.32 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f7078d8-2dea-4f3b-9b87-1a3ff0af0ec2")
+		(property "Reference" "#P+04"
+			(at 147.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 144.78 30.48 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6832ea4-feda-44d7-aed6-9f314106f805")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#P+04")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#P+08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:STEMMA_I2C_QT")
+		(at 226.06 30.48 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "955b3cbd-3916-4586-84a9-9f1ecdb5e0fb")
+		(property "Reference" "CONN1"
+			(at 222.25 22.225 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "STEMMA_I2C_QT"
+			(at 222.25 38.1 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:JST_SH4"
+			(at 226.06 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4a60fd4d-afb8-40db-b419-27f5eea9e9d4")
+		)
+		(pin "MT1"
+			(uuid "91a7e419-3baf-4375-9150-593497f5a35e")
+		)
+		(pin "MT2"
+			(uuid "2e61f3ae-bc1a-496a-81f7-09b5be0a5c8f")
+		)
+		(pin "2"
+			(uuid "e2f38aa5-2070-41e5-bd93-9265cbe6a56b")
+		)
+		(pin "1"
+			(uuid "7e46d266-3c74-4e13-91fc-5c79a42de0db")
+		)
+		(pin "3"
+			(uuid "35c7c3a7-4c03-44d9-aa06-72f8547390ce")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "CONN1")
+					(unit 2)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "CONN3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:supply1_GND")
+		(at 96.52 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a57fa39-0b2e-411c-bf95-ef6849bac4e1")
+		(property "Reference" "#GND01"
+			(at 96.52 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 58.42 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84112acd-7d1d-408c-bd32-7c260c608333")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#GND01")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#GND02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:CAP_CERAMIC0603_NO")
+		(at 78.74 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c8bd49f-9542-415a-9dc9-4b4aeb73aac3")
+		(property "Reference" "C5"
+			(at 76.45 41.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 81.04 41.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:0603-NO"
+			(at 78.74 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b4f02f4c-042c-4c43-90b8-626fc36e6e59")
+		)
+		(pin "1"
+			(uuid "df4e44c1-87b3-4854-902c-b1d950da955f")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:RESISTOR_4PACK")
+		(at 96.52 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d387a49-65c6-4181-af65-cb6aa0a891e4")
+		(property "Reference" "R2"
+			(at 99.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 96.52 38.1 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:RESPACK_4X0603"
+			(at 96.52 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "65aa3763-9b10-45a7-90f2-bb053ca54eea")
+		)
+		(pin "8"
+			(uuid "f2c5c8e1-6157-40d1-9717-ff73d743f9d6")
+		)
+		(pin "2"
+			(uuid "b8287c45-4d25-45ef-835a-78c731ed5bc5")
+		)
+		(pin "4"
+			(uuid "69a15c61-fcdc-4462-b264-e5c30a668b62")
+		)
+		(pin "5"
+			(uuid "6bc89fa3-fcac-47f4-b0e3-ec6cf0c379b8")
+		)
+		(pin "1"
+			(uuid "bfbc0a9f-cdd1-4596-8d5a-451f5cc6804c")
+		)
+		(pin "6"
+			(uuid "c9afb6f7-6bec-4002-989e-ed9c7718270e")
+		)
+		(pin "7"
+			(uuid "c10c0cc9-ab22-4953-b67a-f422eea9280d")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:GND")
+		(at 27.94 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d98e53c-eb67-4edf-97f9-d38f395de31f")
+		(property "Reference" "#U$01"
+			(at 27.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 26.416 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9173f4ab-842e-41a0-9928-c71ebe8ed3b2")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$01")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:GND")
+		(at 83.82 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f2db22f-eaf1-4ca7-a327-62d0622730a9")
+		(property "Reference" "#U$010"
+			(at 83.82 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27ec1297-ff3e-4eab-a532-f3e04a24d7de")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$010")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:STEMMA_I2C_QT")
+		(at 251.46 33.02 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6db7b87-5436-474c-a279-4755449f36c9")
+		(property "Reference" "CONN2"
+			(at 247.65 24.765 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "STEMMA_I2C_QT"
+			(at 247.65 40.64 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:JST_SH4"
+			(at 251.46 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "11c07ba5-fc3f-4d2b-98af-aa00d5bc57de")
+		)
+		(pin "MT2"
+			(uuid "39285b2e-1147-4e8c-87cf-ca6d95958524")
+		)
+		(pin "1"
+			(uuid "cbc12183-e60f-4688-bd5f-94d57c1ea7b9")
+		)
+		(pin "2"
+			(uuid "a5accf07-5643-47c9-8837-425c568e4caa")
+		)
+		(pin "3"
+			(uuid "3d827423-3fd3-4923-9545-7d42df91a1cf")
+		)
+		(pin "MT1"
+			(uuid "1e763cf9-6bbf-4813-9b2e-6daee18196c1")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "CONN2")
+					(unit 3)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "CONN2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:STEMMA_I2C_QT")
+		(at 226.06 33.02 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa1688c8-5ffc-4d11-ae18-3dd697299097")
+		(property "Reference" "CONN1"
+			(at 222.25 24.765 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "STEMMA_I2C_QT"
+			(at 222.25 40.64 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:JST_SH4"
+			(at 226.06 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MT1"
+			(uuid "497e9b41-ea80-47c9-9ca4-3f7422b7f9ec")
+		)
+		(pin "4"
+			(uuid "4f43ef66-37ae-4cd5-b80f-1f4b083e76fb")
+		)
+		(pin "3"
+			(uuid "181b945a-dfdb-47e9-b281-8d76596568b0")
+		)
+		(pin "1"
+			(uuid "ac5c3f33-767a-4d73-8bdb-7b748a4d48a1")
+		)
+		(pin "2"
+			(uuid "a4798cba-57f6-412d-b1fc-21fb6f49583d")
+		)
+		(pin "MT2"
+			(uuid "64dfc522-3046-4362-b604-bdab8a731b8f")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "CONN1")
+					(unit 3)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "CONN3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:STEMMA_I2C_QT")
+		(at 223.52 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aab8b282-aff5-47c4-bd26-22e5080d2af0")
+		(property "Reference" "CONN1"
+			(at 219.71 37.465 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "STEMMA_I2C_QT"
+			(at 219.71 53.34 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:JST_SH4"
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "333791a6-627a-4435-a1c5-047f06e9e7f8")
+		)
+		(pin "1"
+			(uuid "791871dc-80cb-4e79-b831-4ae28a9c0700")
+		)
+		(pin "4"
+			(uuid "6e6eb48d-3bf5-462e-b623-340fb3b2f750")
+		)
+		(pin "MT1"
+			(uuid "2d8fa2bc-c378-46e7-acfa-7250378a19b4")
+		)
+		(pin "MT2"
+			(uuid "0c0d97e6-6aa9-4b03-a6aa-a201ed2365e9")
+		)
+		(pin "2"
+			(uuid "c24429ba-7cd9-4157-a39a-32b3903d915e")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "CONN1")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "CONN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:RESISTOR_4PACK")
+		(at 175.26 38.1 90)
+		(mirror x)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7f8f581-ab8d-47f9-b405-c0f39cf09d7c")
+		(property "Reference" "R3"
+			(at 172.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 175.26 38.1 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:RESPACK_4X0603"
+			(at 175.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "38f3e9fc-8351-46cc-917d-8ffba98287d6")
+		)
+		(pin "3"
+			(uuid "52f44228-c85d-4cc6-bb28-7278306c5bac")
+		)
+		(pin "4"
+			(uuid "7e65cbe8-11eb-4793-aa4f-93b2612acddb")
+		)
+		(pin "1"
+			(uuid "67bd5df7-283f-44ed-b78a-0b3dfab85d66")
+		)
+		(pin "8"
+			(uuid "3ce91118-9c42-4b8e-99fd-094ff363c271")
+		)
+		(pin "7"
+			(uuid "08a01408-220e-4e5c-90f5-265dbc65f90a")
+		)
+		(pin "6"
+			(uuid "67f9ae0d-0362-4f22-a348-bbca74d4b1c1")
+		)
+		(pin "5"
+			(uuid "af0b92a7-8db5-40e6-8fd4-423149db8326")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "R3")
+					(unit 4)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "R7")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:GND")
+		(at 68.58 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8a59b0f-11c4-42e4-9eb2-d90b52123887")
+		(property "Reference" "#U$06"
+			(at 68.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.056 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20e60b1b-2db7-44d7-96f9-41a1b40f3983")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$06")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:MOSFET-N_DUAL")
+		(at 154.94 53.34 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9fd29a4-53bb-451a-8df9-fac1617d720c")
+		(property "Reference" "Q1"
+			(at 154.305 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:SOT363"
+			(at 154.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fe6f2e7-de7a-42b2-9abb-6c9f8c1dab34")
+		)
+		(pin "2"
+			(uuid "92749800-2c3a-46aa-b8ab-26eaed05286f")
+		)
+		(pin "4"
+			(uuid "361d18d5-69f7-412a-b5bb-0423ab815a12")
+		)
+		(pin "6"
+			(uuid "4790656b-16d3-42b8-8386-d2d23602be84")
+		)
+		(pin "5"
+			(uuid "53463658-f937-4673-ab79-a7c0ecaff5d3")
+		)
+		(pin "3"
+			(uuid "5badaf6e-6cb8-4f7b-acdf-f29e218dc158")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:GND")
+		(at 68.58 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd4d4386-acd2-4e59-8846-15936bf376cc")
+		(property "Reference" "#U$05"
+			(at 68.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.056 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d9993e4-a87e-4abc-9386-78aa9b8b3418")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$05")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:CAP_CERAMIC0603_NO")
+		(at 73.66 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c79aa79a-13ad-4b0f-8539-2ed7b44c0873")
+		(property "Reference" "C3"
+			(at 72.41 114.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22pF"
+			(at 72.41 109.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:0603-NO"
+			(at 73.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61191fa3-a86a-4eb7-bbc5-e83726210853")
+		)
+		(pin "2"
+			(uuid "bbd7418f-6dcc-474d-aa4f-5bc803005bac")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:DIODESOD-323")
+		(at 114.3 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb7559ab-7859-4765-a3f0-bacc6f31f906")
+		(property "Reference" "D2"
+			(at 114.3 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "1n4148"
+			(at 114.3 185.38 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:SOD-323"
+			(at 114.3 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "4d7e42f0-4fdb-4db2-b7bd-6c5fe234cb3f")
+		)
+		(pin "C"
+			(uuid "2128e768-4f2c-43fb-a7fb-f7c451357edc")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:HEADER-1X476MIL")
+		(at 167.64 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf2c06ec-4172-4043-a727-c1642524a106")
+		(property "Reference" "JP2"
+			(at 161.29 145.415 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "HEADER-1X476MIL"
+			(at 161.29 161.29 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:1X04_ROUND_76"
+			(at 167.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f4c2a153-98ce-4665-bd46-76efe72869d9")
+		)
+		(pin "2"
+			(uuid "4b60bb22-f772-4c7e-ab88-5bd10981f23e")
+		)
+		(pin "4"
+			(uuid "0f0991bb-f0db-4112-806d-8fed5196c653")
+		)
+		(pin "1"
+			(uuid "556004c3-ae71-47e6-8d19-c3b5f1077995")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:BNO055")
+		(at 111.76 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d103d4b5-3aae-4a71-9523-c32d08905695")
+		(property "Reference" "U$1"
+			(at 93.98 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "BNO055"
+			(at 93.98 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:BNO055"
+			(at 111.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c9534a03-a5b2-401f-8d93-39f5628c6bfb")
+		)
+		(pin "2"
+			(uuid "fd20bfd5-6e64-48bc-9949-c6d239680256")
+		)
+		(pin "28"
+			(uuid "7e221774-6837-4b09-8a82-f7cf5a0d0ec8")
+		)
+		(pin "6"
+			(uuid "9fe93b0e-a7fa-491d-8c8d-485dd0d204e1")
+		)
+		(pin "7"
+			(uuid "3809492d-b871-444e-96f1-4401b4a6ba07")
+		)
+		(pin "8"
+			(uuid "4cad9bed-ac3a-4ed1-b711-ecc76c1745ce")
+		)
+		(pin "5"
+			(uuid "012c4c2e-cd3d-4c38-a0f1-7eb8c41754b2")
+		)
+		(pin "18"
+			(uuid "8c564679-ae8d-4212-81f5-a171e874c2ce")
+		)
+		(pin "14"
+			(uuid "0373b4b3-be20-4a46-bd6b-638cbe430b2a")
+		)
+		(pin "15"
+			(uuid "e27d88a4-c97a-4688-9c6a-bde5f995dad2")
+		)
+		(pin "16"
+			(uuid "1f5ac2d5-ae38-4358-90e8-c766a0e5f416")
+		)
+		(pin "17"
+			(uuid "053e4a6f-07dd-4724-b1b5-884311d1c66f")
+		)
+		(pin "20"
+			(uuid "206035ea-9f03-40c9-867e-e24fc5bd0778")
+		)
+		(pin "25"
+			(uuid "f961495a-5549-40eb-9430-842920aad276")
+		)
+		(pin "26"
+			(uuid "1f4a9cfa-40cd-456a-a3f3-2fbb2bac0bd3")
+		)
+		(pin "19"
+			(uuid "9bf9bace-976c-4917-924e-4a2364e4d96c")
+		)
+		(pin "10"
+			(uuid "5a27a8d9-ca7f-4924-a536-79af40c36aea")
+		)
+		(pin "27"
+			(uuid "61f7f377-9eb0-4780-be80-723d2b00345a")
+		)
+		(pin "11"
+			(uuid "48bc8c1e-4de9-43d7-b3c4-9b45cac08e90")
+		)
+		(pin "4"
+			(uuid "2a22a4ba-762a-4a8d-9bd3-1c47d64e73fb")
+		)
+		(pin "9"
+			(uuid "a093f751-81ec-4927-8888-b990e4c8e83b")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "U$1")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "U$1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:3.3V")
+		(at 167.64 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d796ceb7-2ce8-4410-81a3-ac658ef2c653")
+		(property "Reference" "#U$021"
+			(at 167.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 168.656 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9dafa56-d67a-45a5-ac63-69e2c753ac89")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$021")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:STEMMA_I2C_QT")
+		(at 251.46 30.48 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da18950e-18b7-4a40-9034-95d5450b0a05")
+		(property "Reference" "CONN2"
+			(at 247.65 22.225 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "STEMMA_I2C_QT"
+			(at 247.65 38.1 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:JST_SH4"
+			(at 251.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68922518-a07f-44b4-b902-f16a7c1f9deb")
+		)
+		(pin "2"
+			(uuid "1c6c8a89-7670-46d9-a292-abdd2b99685d")
+		)
+		(pin "3"
+			(uuid "219e9887-e6a1-4880-a39f-290d5a24799f")
+		)
+		(pin "4"
+			(uuid "2f4bdc95-3d37-4a1b-89e9-bfd436cc6554")
+		)
+		(pin "MT1"
+			(uuid "d8d0eaaf-b8bf-4b74-89c5-c635a1803a9e")
+		)
+		(pin "MT2"
+			(uuid "5ea7a878-593c-45f8-bd7c-855b396ccca3")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "CONN2")
+					(unit 2)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "CONN2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:VCC")
+		(at 50.8 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dac84962-a8be-4f93-9453-f2f2a37aa6ab")
+		(property "Reference" "#P+02"
+			(at 50.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 48.26 81.28 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7ebdd1f-8a74-458c-8faa-700456e9fba7")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#P+02")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#P+06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:3.3V")
+		(at 86.36 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6f8519e-8bc4-4c99-9e7d-111864c89abf")
+		(property "Reference" "#U$012"
+			(at 86.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 84.836 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90a37fe7-b24e-4238-b389-4f1c79cf2d6d")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$012")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:LED0603_NOOUTLINE")
+		(at 96.52 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eccfe1bc-1ced-48d6-98d0-5bee43e01035")
+		(property "Reference" "D1"
+			(at 100.965 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 93.726 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BNO055 STEMMA QT:CHIPLED_0603_NOOUTLINE"
+			(at 96.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "bb4ca266-b73a-4585-99a8-9fca582d23d1")
+		)
+		(pin "C"
+			(uuid "83681ca9-2e34-4b3b-ba6a-f5619c1774c8")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:3.3V")
+		(at 88.9 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee825dd3-517d-4e09-9c7d-c4cb3e843a7a")
+		(property "Reference" "#U$013"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 87.376 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42ac1094-ebf3-4a5a-be1c-881792ead522")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$013")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:VCC")
+		(at 27.94 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f03632b0-361e-44c6-9eab-59602ff24019")
+		(property "Reference" "#P+01"
+			(at 27.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 25.4 33.02 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd522bb7-e701-4fc4-8358-5c037cc56b36")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#P+01")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#P+05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:GND")
+		(at 73.66 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa3b532b-fa84-4e85-bec1-255bc55ccefc")
+		(property "Reference" "#U$07"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "381fed17-45e0-42a6-95bd-d7d285298341")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$07")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BNO055 STEMMA QT-eagle-import:GND")
+		(at 175.26 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe4311d3-d63c-4c27-a018-7661e894d3da")
+		(property "Reference" "#U$023"
+			(at 175.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ede442ae-7dd0-494b-9850-87efe517e59d")
+		)
+		(instances
+			(project "Adafruit BNO055 STEMMA QT"
+				(path "/44b46fe4-9e37-4197-a066-d426c8c8c1be"
+					(reference "#U$023")
+					(unit 1)
+				)
+			)
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/dd064ed0-c814-41cf-9152-540e0c61284e"
+					(reference "#U$040")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

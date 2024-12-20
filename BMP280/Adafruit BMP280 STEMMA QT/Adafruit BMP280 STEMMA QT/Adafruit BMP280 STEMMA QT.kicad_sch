@@ -1,0 +1,7887 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c23806fb-e866-404a-bfc2-79d12ed358b0")
+	(paper "A4")
+	(title_block
+		(title "BMP280")
+		(date "SEPTEMBER 2024")
+		(rev "SHEKHAR S")
+	)
+	(lib_symbols
+		(symbol "Adafruit BMP280 STEMMA QT-eagle-import:3.3V"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -1.524 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.3V Supply"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "3.3V_1_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "3.3V"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BMP280 STEMMA QT-eagle-import:BMP280_COMBO"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -10.16 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit BMP280 STEMMA QT:BMX280_COMBO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "BMP280 - Digital Pressure Sensor\n\n• Operating Pressure Range: 300-1100 hPa\n• Pressure Resolution: 0.16Pa\n• RMS Noise: 1.3Pa\n• Temperature Resolution: 0.01 C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BMP280_COMBO_1_0"
+				(polyline
+					(pts
+						(xy -10.16 -7.62) (xy -10.16 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -7.62) (xy -10.16 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 7.62) (xy 10.16 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 12.7) (xy -10.16 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 12.7) (xy 10.16 12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -12.7) (xy -10.16 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy -10.16 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 10.16 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 7.62) (xy 10.16 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 12.7) (xy 10.16 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "-40~~85°C"
+					(at 0 -11.43 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "1.8-3.6V"
+					(at 0 -9.525 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "BMP280 Digital\nPressure Sensor"
+					(at 0 10.16 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+					)
+				)
+				(text "Temp:"
+					(at -7.62 -11.43 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "VDD:"
+					(at -7.62 -9.525 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "CSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BMP280 STEMMA QT-eagle-import:CAP_CERAMIC0603_NO"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -2.29 1.25 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 2.3 1.25 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Adafruit BMP280 STEMMA QT:0603-NO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CAP_CERAMIC0603_NO_1_0"
+				(rectangle
+					(start -1.27 0.508)
+					(end 1.27 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.27 1.524)
+					(end 1.27 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BMP280 STEMMA QT-eagle-import:CAP_CERAMIC0805-NOOUTLINE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -2.29 1.25 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 2.3 1.25 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Adafruit BMP280 STEMMA QT:0805-NO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CAP_CERAMIC0805-NOOUTLINE_1_0"
+				(rectangle
+					(start -1.27 0.508)
+					(end 1.27 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.27 1.524)
+					(end 1.27 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BMP280 STEMMA QT-eagle-import:DIODESOD-323"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -2.5 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+				)
+			)
+			(property "Footprint" "Adafruit BMP280 STEMMA QT:SOD-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode\n\nSMA     Model   Volts   Amps   Type   Vf   Ir   Digikey #   Notes     SSA34-E3   40V   3A   Schottky   480mV @ 3A   200uA @ 40V   SSA34-E3/61TGITR-ND        CDBA120-G   20V   1A   Schottky   500mV @ 1A   500uA @ 20V   641-1014-6-ND   REEL     MBRA210   10V   2A   Schottky   350mV @ 2A   700uA @ 10V   MBRA210LT3      SOD-123     Model   Volts   Amps   Type   Vf   Ir   Order #   Notes     BAT54T1G   30V   200mA   Schottky   800mV @ 200mA   2uA @ 25V   BAT54T1GOSTR-ND        B0530W   30V   500mA   Schottky   430mV @ 500mA   130uA @ 30V   B0530W-FDICT-ND   REEL     MBR120   20V   1A   Schottky   340mV @ 1A      MBR120VLSFT1GOSCT-ND      SOD-323     Model   Volts   Amps   Type   Vf   Ir   Order #   Notes     PMEG2005EJ   20V   500mA   Schottky   355mV @ 500mA      568-4110-1-ND        ZLLS410   10V   570mA   Schottky   380mV @ 570mA      ZLLS410CT-ND        1N4148WS   75V   150mA   Silicon/Simple   1V      1N4148WSFSCT-ND   REEL   SOD-523     Model   Volts   Amps   Type   Vf   Ir   Order #   Notes     BAT54XV2   30V   200mA   Schottky   0.8V @ 100mA      BAT54XV2CT-ND        TB751S   30V   30mA   Schottky         RB751S-40TE61CT-ND      SOT23-R/W(R = Solder Paste/Reflow Ovens, W = Hand-Soldering)      Model   Volts   Amps   Type   Vf   Ir   Order #   Notes     BAT54FILM   40V   300mA   Schottky         497-7162-1-ND       POWERDI-5      Model   Volts   Amps   Type   Vf   Ir   Order #   Notes     PDS560   60V   5A   Schottky   670mV @ 5A   150uA @ 60V   PDS560DICT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DIODESOD-323_1_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BMP280 STEMMA QT-eagle-import:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -1.524 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BMP280 STEMMA QT-eagle-import:HEADER-1X770MIL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -6.35 10.795 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -6.35 -12.7 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit BMP280 STEMMA QT:1X07_ROUND_70"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PIN HEADER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HEADER-1X770MIL_1_0"
+				(polyline
+					(pts
+						(xy -6.35 -10.16) (xy 1.27 -10.16)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 10.16) (xy -6.35 -10.16)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -10.16) (xy 1.27 10.16)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 10.16) (xy -6.35 10.16)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 7.62 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 5.08 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BMP280 STEMMA QT-eagle-import:LED0603_NOOUTLINE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -1.27 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+				)
+			)
+			(property "Footprint" "Adafruit BMP280 STEMMA QT:CHIPLED_0603_NOOUTLINE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED\n\n0603 - 0603 Surface Mount Package\n\n2mA:\n\n• Green LED - Low Power (3.9mcd, 2ma, 1.7Vf) - Digikey: 475-2709-2-ND\n• Orange LED - Low Power (9.8mcd, 2ma, 1.8Vf) - Digikey: 475-1194-2-ND\n• Red LED - Low Power (5mcd, 2ma, 1.8Vf) - Digikey: 475-1195-2-ND\n• Yellow LED - Low Power (7mcd, 2ma, 1.8Vf) - Digikey: 475-1196-2-ND\n\n5mA:\n\n• Blue LED - Low Power (17mcd, 5ma, 2.9Vf) - Digikey: LNJ937W8CRACT-ND\n\n0805 - 0805 Surface Mount Package\n\n2mA:\n\n• Red LED (8.8mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2510-1-ND]\n• Green LED (5mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2730-1-ND]\n• Yellow LED (11.3mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2555-1-ND]\n\n20mA:\n\n• Red LED (104mcd, 20mA, Diffused) - LS R976 [Digikey: 475-1278-6-ND]\n• Red LED (12mcd, 20mA, 2.0Vf, Clear) - APT2012EC [Digikey: 754-1128-1-ND]\n• Green LED (15mcd, 20mA, 2.2Vf, Clear) - APT2012GC [Digikey: 754-1131-1-ND]\n• Orange LED (160mcd, 20mA, 2.1Vf, Clear) - APT2012SECK [Digikey: 754-1130-1-ND]\n\n• 1206 - 1206 Surface Mount Package\n\n• Green LED (26mcd, 20mA, Diffused) - LG N971  [Digikey: 475-1407-6-ND]\n• Red LED (15mcd, 20mA, Diffused) - LH N974 [Digikey: 475-1416-6-ND]\n\n• Cree - Cree High-Power Surface Mount LEDs\n\n• XPEBWT-L1-0000-00D50 - White 111lm 350mA 2.9Vf 6200K 110°\n• XTEAWT-00-0000-00000LEE3 - White 114lm 350mA 2.85Vf 5000K 115°\n\n• Everlight - Everlight 45-21 Series Surface Mount LEDs\n\n• 45-21/QK2C-B2832AC2CB2/2T - Warm White 2000mcd 20mA 3.25Vf 3050K 120°\n• 45-21/LK2C-B38452C4CB2/2T - Nuetral White 2000mcd 20mA 3.25Vf 4150K 120°\n• 45-21/LK2C-B50634C6CB2/2T - Cold White 2200mcd 20mA 3.25Vf 5650K 120°\n\n• PLCC2 Reverse Mount\n\n• LS T77K-J1L2-1-0-2-R18-Z - Red 11.25mcd 2mA 1.8Vf 630nm 120°\n• LO T77K-L1M2-24-Z - Orange 19.6mcd 2mA 1.8Vf 606nm 120°\n• LY T77K-K2M1-26-Z - Yellow 15.7mcd 2mA 1.8Vf 587nm 120°"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED0603_NOOUTLINE_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy -0.635 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.9525 2.8575) (xy -0.3175 2.2225)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0.635 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3175 2.2225) (xy 0 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy -0.9525 2.8575)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.3175 2.8575) (xy 0.9525 2.2225)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.9525 2.2225) (xy 1.27 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.175) (xy 0.3175 2.8575)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BMP280 STEMMA QT-eagle-import:MOSFET-N_DUAL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit BMP280 STEMMA QT:SOT363"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual N-Channel MOSFET\n\nSOT363 (2.0x1.25mm)\n\n• 2N7002PS - 60V, 320mA [Digikey: 568-5984-1-ND]"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MOSFET-N_DUAL_1_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.54) (xy 0.762 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.905) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.762) (xy 0.762 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 0.762 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.175) (xy 0.762 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.508) (xy 3.048 0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 0.508) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 0.762) (xy 4.318 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 -0.254) (xy 4.318 -0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "D"
+					(at 3.175 3.175 0)
+					(effects
+						(font
+							(size 0.8128 0.6908)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "G"
+					(at -1.27 -1.905 0)
+					(effects
+						(font
+							(size 0.8128 0.6908)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "S"
+					(at 3.175 -3.81 0)
+					(effects
+						(font
+							(size 0.8128 0.6908)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MOSFET-N_DUAL_2_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.54) (xy 0.762 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.905) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.762) (xy 0.762 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 0.762 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.175) (xy 0.762 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.508) (xy 3.048 0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 0.508) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 0.762) (xy 4.318 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 -0.254) (xy 4.318 -0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "D"
+					(at 3.175 3.175 0)
+					(effects
+						(font
+							(size 0.8128 0.6908)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "G"
+					(at -1.27 -1.905 0)
+					(effects
+						(font
+							(size 0.8128 0.6908)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "S"
+					(at 3.175 -3.81 0)
+					(effects
+						(font
+							(size 0.8128 0.6908)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BMP280 STEMMA QT-eagle-import:RESISTOR_0603_NOOUT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "Adafruit BMP280 STEMMA QT:0603-NO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RESISTOR_0603_NOOUT_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BMP280 STEMMA QT-eagle-import:RESISTOR_4PACK"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "Adafruit BMP280 STEMMA QT:RESPACK_4X0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor Packs (4 resistors)\n\n4 x 0603\n\n• 10K 1/16W - Digikey: YC164J-10KCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RESISTOR_4PACK_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RESISTOR_4PACK_2_0"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RESISTOR_4PACK_3_0"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RESISTOR_4PACK_4_0"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BMP280 STEMMA QT-eagle-import:SOLDERJUMPER"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SJ"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit BMP280 STEMMA QT:SOLDERJUMPER_ARROW_NOPASTE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Solder JUMPER\n\nSolder the two pads together to create a connection, or remove the solder to break it.\n\nREFLOW - Use this footprint for solder paste and reflow ovens. WAVE - Use this footprint for hand-soldering (larger pads).\n\nCLOSED - Has a trace between the two pads to ensure it is closed by default.  The trace needs to be cut to disable the jumper, and can be closed again by creating a solder bridge between the two pads."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SOLDERJUMPER_1_0"
+				(arc
+					(start -0.3808 0.635)
+					(mid -1.0159 0.0001)
+					(end -0.381 -0.635)
+					(stroke
+						(width 1.27)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.651 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.651 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.3808 -0.635)
+					(mid 1.0159 -0.0001)
+					(end 0.381 0.635)
+					(stroke
+						(width 1.27)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BMP280 STEMMA QT-eagle-import:STEMMA_I2C_QT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CONN"
+				(at -3.81 8.255 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -7.62 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Adafruit BMP280 STEMMA QT:JST_SH4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "STEMMA_I2C_QT_1_0"
+				(polyline
+					(pts
+						(xy -3.81 -5.08) (xy 3.81 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 7.62) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy 3.81 7.62)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 7.62) (xy -3.81 7.62)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at 0 5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 0 2.54 0)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 0 0 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "STEMMA_I2C_QT_2_0"
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "STEMMA_I2C_QT_3_0"
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BMP280 STEMMA QT-eagle-import:VCC"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#P+"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_1_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.905) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BMP280 STEMMA QT-eagle-import:VREG_SOT23-5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -7.62 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit BMP280 STEMMA QT:SOT23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SOT23-5 Fixed Voltage Regulators\n\nPart Current Out V Out V In V Dropout θJA (°C/W) TJ (°C) Digikey Part No.     ADP121   150mA   3.3V   3.4-5.5V   0.09V @ 150mA   --   --   ADP121-AUJZ33R7CT-ND     ADP121   150mA   3.0V   3.1-5.5V   0.09V @ 150mA   --   --   ADP121-AUJZ30R7CT-ND     ADP122   300mA   3.3V   3.4-5.5V   0.085V @ 300mA   --   --   ADP122AUJZ-3.3-R7CT-ND     ADP1712   300mA   3.3V   3.5-5.5V   0.17V @ 300mA   --   --   ADP1712AUJZ-3.3-R7TR-ND     AP7311 (Low Cost)   150mA   3.3V   3.5-6V   0.15V @ 150mA   --   --   AP7311-33WG-7DICT-ND      LD39015M18R   150mA   1.8V   1.9V-5.5V   0.08V @ 100mA   --   --   497-6977-1-ND      LP2985A-33DBVR   150mA   3.3V   3.3-16V   0.28V @ 150mA   206   150   296-18479-1-ND      MCP1824T-3302E/OT   300mA   3.3V   3.5V-6V   0.2V @ 300mA   --   --   MCP1824T-3302E/OTCT-ND      MIC5205-2.5YM5 TR   150mA   2.5V   2.7-16V   0.165V @ 150mA   --   --   576-1257-2-ND     MIC5205-3.0YM5 TR   150mA   3.0V   3.2V-16V   0.165V @ 150mA   --   --   576-1258-2-ND     MIC5205-3.3YM5 TR   150mA   3.3V   3.5V-16V   0.165V @ 150mA   --   --   576-1259-2-ND     TPS780330220   150mA   3.3V+2.2V   3.6-5.5V   250mV Max   --   --   296-23332-1-ND     TDA3663/N1,135   100mA   3.3V   3.5-45V   0.18V @ 50mA   --   --   568-5343-1-ND\n\nMax operating temp can be calculated using θJA, TJ (max junction temperature), and power in watts.  Set the \"Maximum Ambient Temperature\" until it reaches TJ (\"Max Junction Temperature\"), which is the absolute limit for safe use of the regulator: http://www.daycounter.com/Calculators/Heat-Sink-Temperature-Calculator.phtml Heat Sink Temperature Calculator\n\nFor example, With 12V source into a 3.3V LP2985 and a 30mA load, we are dissipating (12V-3.3V) * 0.03A = 0.261W.  With a θJA of 206 °C/W, a TJ of 150°C, and 261mW we can safely use the chip without a heat sink up to 75°C (=147.1°C Junction Temperature)."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VREG_SOT23-5_1_0"
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy -7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "P4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit BMP280 STEMMA QT-eagle-import:supply1_GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "supply1_GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 68.58 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0310fe89-4fc9-4e23-829a-a8168fa84996")
+	)
+	(junction
+		(at 175.26 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "036e1710-a888-42f7-b37a-51eee0849551")
+	)
+	(junction
+		(at 27.94 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e2070b3-8549-41ab-87ba-43225f8cd6d2")
+	)
+	(junction
+		(at 40.64 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "249e06b6-29cc-480b-8f92-4b194918a684")
+	)
+	(junction
+		(at 182.88 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36840580-09b8-4dfa-907b-14aff5fb29e7")
+	)
+	(junction
+		(at 139.7 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87038e40-5350-4f02-91af-1d24ca966b74")
+	)
+	(junction
+		(at 93.98 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8df31581-9ed1-43da-bac4-3e1ed005219a")
+	)
+	(junction
+		(at 246.38 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a3a119c-efe7-413e-be67-07c42461429f")
+	)
+	(junction
+		(at 147.32 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af7bc523-f862-4322-b47e-a78e9cfec63a")
+	)
+	(junction
+		(at 27.94 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1412fea-2fa3-44cd-be29-6803b11a4042")
+	)
+	(wire
+		(pts
+			(xy 38.1 48.26) (xy 27.94 48.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "028c5bbe-0a5d-4c7e-a8f5-2135fb24a968")
+	)
+	(wire
+		(pts
+			(xy 223.52 116.84) (xy 231.14 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "047034ca-3445-42e5-b5af-04ec9332c8e3")
+	)
+	(wire
+		(pts
+			(xy 27.94 33.02) (xy 27.94 35.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0bd393cd-f852-43a4-8186-4a01da49e3bc")
+	)
+	(wire
+		(pts
+			(xy 246.38 116.84) (xy 233.68 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0c1ed79f-c093-4f0c-b598-8128b3ad6a72")
+	)
+	(wire
+		(pts
+			(xy 160.02 45.72) (xy 147.32 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "120c789a-7243-4fd2-ab8b-d931fa8970fe")
+	)
+	(wire
+		(pts
+			(xy 139.7 129.54) (xy 124.46 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "17874e6e-4024-4bde-ba16-fae305fa840f")
+	)
+	(polyline
+		(pts
+			(xy 86.995 12.065) (xy 86.995 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b41e094-65fe-4005-90d7-2be40fdbbd02")
+	)
+	(wire
+		(pts
+			(xy 58.42 88.9) (xy 43.18 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1ccafd0d-05ab-4e8a-9668-33655d1870fd")
+	)
+	(wire
+		(pts
+			(xy 40.64 38.1) (xy 40.64 35.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1db0bafb-a2a8-4964-8818-28c6cb5f6afa")
+	)
+	(wire
+		(pts
+			(xy 246.38 132.08) (xy 246.38 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1f6f1c10-07c8-4ec1-852c-733fba2c3903")
+	)
+	(wire
+		(pts
+			(xy 78.74 33.02) (xy 78.74 38.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "21c96a54-37f2-46d8-bae1-e0e7b87e79d9")
+	)
+	(wire
+		(pts
+			(xy 50.8 86.36) (xy 50.8 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "221509a6-b92b-43f7-af1d-7994fa5cd7dd")
+	)
+	(wire
+		(pts
+			(xy 205.74 116.84) (xy 205.74 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "229172f2-4d7b-4a78-b8f4-0922f2016a53")
+	)
+	(wire
+		(pts
+			(xy 175.26 55.88) (xy 198.12 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "36d17940-52f8-42ed-a0c0-d3863369ef08")
+	)
+	(wire
+		(pts
+			(xy 124.46 139.7) (xy 139.7 139.7)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4292616a-f306-4bb9-a899-11bfe3074712")
+	)
+	(wire
+		(pts
+			(xy 38.1 40.64) (xy 38.1 48.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4326786a-f5ef-4eae-8c4c-5e8ff9613973")
+	)
+	(wire
+		(pts
+			(xy 139.7 30.48) (xy 139.7 33.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "49299402-e327-4fb6-834d-4eb60064145e")
+	)
+	(wire
+		(pts
+			(xy 147.32 45.72) (xy 121.92 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "495682a4-c75d-4c24-bd6f-6db94b668aec")
+	)
+	(wire
+		(pts
+			(xy 99.06 129.54) (xy 93.98 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4ded13d6-3e2b-43e3-a95d-549e5fac5d94")
+	)
+	(wire
+		(pts
+			(xy 182.88 33.02) (xy 182.88 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "50148711-ed6e-449a-a6a0-6e3c65865a49")
+	)
+	(wire
+		(pts
+			(xy 78.74 45.72) (xy 78.74 50.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5a932e2b-e950-48bc-b7bb-6fa32695d566")
+	)
+	(wire
+		(pts
+			(xy 175.26 33.02) (xy 175.26 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5ec00fd6-c395-48c3-945f-376c490dc68f")
+	)
+	(polyline
+		(pts
+			(xy 285.115 69.85) (xy 279.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602533db-3fbd-4b27-8d8d-da5f84cc1735")
+	)
+	(polyline
+		(pts
+			(xy 172.085 160.02) (xy 285.115 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "639e54b7-2ce5-4fd0-a4db-c86ef18afbc3")
+	)
+	(polyline
+		(pts
+			(xy 12.065 69.85) (xy 285.115 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64593311-59fc-420f-9302-8fcd8a494f38")
+	)
+	(polyline
+		(pts
+			(xy 12.065 160.02) (xy 172.085 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6464a025-a5a0-48e8-872c-c99146a6a66b")
+	)
+	(wire
+		(pts
+			(xy 147.32 33.02) (xy 147.32 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "66e01a0b-3258-444b-8561-3dce11e1bab3")
+	)
+	(wire
+		(pts
+			(xy 223.52 43.18) (xy 256.54 43.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6e04dcb8-b6c6-4c5e-805f-dc45705b0792")
+	)
+	(polyline
+		(pts
+			(xy 209.55 69.85) (xy 209.55 12.065)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7186a1b3-a341-4999-b922-aa1e9c2e42e9")
+	)
+	(wire
+		(pts
+			(xy 139.7 55.88) (xy 121.92 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "72cd8f4e-cfa9-4fc7-a5f3-700b81970db2")
+	)
+	(wire
+		(pts
+			(xy 175.26 43.18) (xy 175.26 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "73c6e7e9-479b-4f3c-8dea-e0df5e6e23b1")
+	)
+	(wire
+		(pts
+			(xy 43.18 88.9) (xy 43.18 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7bb832dc-5037-42c5-956a-fd1915f225d5")
+	)
+	(wire
+		(pts
+			(xy 93.98 139.7) (xy 93.98 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7c8a689a-835c-4b79-b9cf-320f8e4e2929")
+	)
+	(wire
+		(pts
+			(xy 58.42 99.06) (xy 45.72 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "82484c55-3ef4-4921-91b0-7e2a8dfa3de9")
+	)
+	(wire
+		(pts
+			(xy 170.18 45.72) (xy 182.88 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8295c94d-b5ac-4b83-aa9e-e8684c127cf2")
+	)
+	(polyline
+		(pts
+			(xy 363.22 162.56) (xy 363.22 160.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "889a7652-e7b0-4a6e-acb0-2d65166c82d1")
+	)
+	(wire
+		(pts
+			(xy 223.52 48.26) (xy 256.54 48.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "88cd6822-0fc1-4ea2-b330-4c805d7929a7")
+	)
+	(wire
+		(pts
+			(xy 147.32 43.18) (xy 147.32 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8ff8a2a5-90c0-410f-828a-42e263f5e7c9")
+	)
+	(wire
+		(pts
+			(xy 256.54 45.72) (xy 223.52 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9075eeca-dcf4-4ced-bf73-93ac54aca967")
+	)
+	(wire
+		(pts
+			(xy 124.46 132.08) (xy 139.7 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "90e185da-a08f-4e05-a20d-1983a0d449c8")
+	)
+	(wire
+		(pts
+			(xy 40.64 35.56) (xy 27.94 35.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "96dba06c-379b-4c27-9374-3e1b2590e5a9")
+	)
+	(polyline
+		(pts
+			(xy 172.085 69.85) (xy 172.085 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9823393d-e595-4c6a-ae53-9459d51d577b")
+	)
+	(wire
+		(pts
+			(xy 149.86 55.88) (xy 139.7 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9e4eb097-c358-499e-a00c-982824aff81f")
+	)
+	(wire
+		(pts
+			(xy 68.58 35.56) (xy 68.58 33.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9f51483b-3ebf-4919-b6a4-84918f575462")
+	)
+	(wire
+		(pts
+			(xy 27.94 48.26) (xy 27.94 50.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a5cf23ba-4e34-4521-a4d8-425b51ee50b0")
+	)
+	(wire
+		(pts
+			(xy 58.42 93.98) (xy 45.72 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a77a11c7-a96c-4963-a3d1-19655ad090db")
+	)
+	(wire
+		(pts
+			(xy 139.7 137.16) (xy 124.46 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a9357221-5b70-43b2-b551-325192c84593")
+	)
+	(wire
+		(pts
+			(xy 58.42 101.6) (xy 45.72 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ad9fcff1-8b23-4822-9420-6cc77e128bf7")
+	)
+	(wire
+		(pts
+			(xy 58.42 91.44) (xy 68.58 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "adf02e6c-5e06-4add-80c7-3582434ef38e")
+	)
+	(wire
+		(pts
+			(xy 60.96 35.56) (xy 68.58 35.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b23f6683-27f0-4efc-be81-0b9e25eab897")
+	)
+	(wire
+		(pts
+			(xy 93.98 129.54) (xy 93.98 124.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b44b2d7b-323f-4d33-9fef-444bee7e4eda")
+	)
+	(wire
+		(pts
+			(xy 256.54 40.64) (xy 223.52 40.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ba056edf-4b06-4236-8bc8-d462a96d571f")
+	)
+	(wire
+		(pts
+			(xy 58.42 86.36) (xy 50.8 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bba507a7-72c7-4d96-a025-a1cc080f5322")
+	)
+	(wire
+		(pts
+			(xy 93.98 132.08) (xy 93.98 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bc9eada2-43a2-4db2-8f8c-8228d1cf9167")
+	)
+	(wire
+		(pts
+			(xy 99.06 132.08) (xy 93.98 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bdc74704-20a1-474f-8f98-01608df8e3e0")
+	)
+	(wire
+		(pts
+			(xy 167.64 40.64) (xy 167.64 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c4f150aa-dfdd-40e3-affb-84329c3557c3")
+	)
+	(wire
+		(pts
+			(xy 218.44 116.84) (xy 205.74 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cc971543-d70c-40fd-8254-89bfbb9a295e")
+	)
+	(wire
+		(pts
+			(xy 27.94 48.26) (xy 27.94 43.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ccc463e0-5568-4745-8b04-6ee731c43fdf")
+	)
+	(wire
+		(pts
+			(xy 68.58 35.56) (xy 68.58 38.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d7516041-e964-42ad-9967-c1f3d03f53d6")
+	)
+	(wire
+		(pts
+			(xy 246.38 106.68) (xy 246.38 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d9e391b8-c190-4f73-9e56-6502ddab7458")
+	)
+	(wire
+		(pts
+			(xy 160.02 55.88) (xy 175.26 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e3002675-15ce-433e-ae75-0ce28bba9808")
+	)
+	(wire
+		(pts
+			(xy 139.7 43.18) (xy 139.7 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e597435a-cb0d-47bf-9129-26b0934ed544")
+	)
+	(wire
+		(pts
+			(xy 182.88 43.18) (xy 182.88 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e8ce0a6a-3ea9-4c85-bebd-3b05d533eeec")
+	)
+	(wire
+		(pts
+			(xy 58.42 96.52) (xy 45.72 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "eaf320b8-c91d-4a04-947f-012db752bc71")
+	)
+	(polyline
+		(pts
+			(xy 285.115 160.02) (xy 285.115 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb673468-3e13-4698-b36a-07b4dd9b8c31")
+	)
+	(polyline
+		(pts
+			(xy 209.55 12.065) (xy 86.995 12.065)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee4d1d50-3e2e-4da9-a992-29975f3a46a3")
+	)
+	(wire
+		(pts
+			(xy 182.88 45.72) (xy 198.12 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f0fc4eef-9930-4b09-9783-d9c3a7ec22b5")
+	)
+	(wire
+		(pts
+			(xy 157.48 50.8) (xy 157.48 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f4d40a48-fd36-4492-a3b5-99bbd8cd3f95")
+	)
+	(wire
+		(pts
+			(xy 68.58 45.72) (xy 68.58 50.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f7b9c953-4798-41df-8bc7-08cbe29d7249")
+	)
+	(wire
+		(pts
+			(xy 99.06 139.7) (xy 93.98 139.7)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f81e433f-1979-478b-b846-5b35210de3f8")
+	)
+	(wire
+		(pts
+			(xy 246.38 116.84) (xy 261.62 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fba545cc-103e-4b50-89d8-0331cdeaca21")
+	)
+	(wire
+		(pts
+			(xy 40.64 40.64) (xy 38.1 40.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fc862a06-dfe8-4ab8-9ef0-cd2e1bd02855")
+	)
+	(wire
+		(pts
+			(xy 96.52 45.72) (xy 96.52 43.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ff51a701-bbd8-4366-be6c-cdb7f44a8eaa")
+	)
+	(text "ON LED"
+		(exclude_from_sim no)
+		(at 88.9 63.5 0)
+		(effects
+			(font
+				(size 2.1844 1.8567)
+			)
+			(justify left bottom)
+		)
+		(uuid "09734886-6e67-4e6f-93c8-6ee0d7e29a85")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 149.86 58.42 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "0cbfb7c7-6083-45ee-834b-3ee45bc05448")
+	)
+	(text "I2C Headers"
+		(exclude_from_sim no)
+		(at 210.82 63.5 0)
+		(effects
+			(font
+				(size 2.1844 1.8567)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d8bc4a2-a045-4940-90a7-7550a1e0b5bb")
+	)
+	(text "I2C Pullups & Shift"
+		(exclude_from_sim no)
+		(at 111.76 63.5 0)
+		(effects
+			(font
+				(size 2.1844 1.8567)
+			)
+			(justify left bottom)
+		)
+		(uuid "865d864b-3756-453f-8f5f-defc38f44d86")
+	)
+	(text "S"
+		(exclude_from_sim no)
+		(at 160.02 58.42 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "961502d8-9632-4298-b511-624613065546")
+	)
+	(text "G"
+		(exclude_from_sim no)
+		(at 154.94 50.8 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b3489ea-01fd-47a3-b3a9-194afdb73f83")
+	)
+	(text "Power supply"
+		(exclude_from_sim no)
+		(at 25.4 63.5 0)
+		(effects
+			(font
+				(size 2.1844 1.8567)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2fab2f6-d135-4a66-963f-bb82a3e56f31")
+	)
+	(text "I2C Pullups"
+		(exclude_from_sim no)
+		(at 220.98 157.48 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5e04f67-c23a-41db-b0f2-1d791b85cc63")
+	)
+	(label "SDI_3V"
+		(at 198.12 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "0227d445-1196-4a76-9184-fe3f72c30f02")
+	)
+	(label "SDI/SDA"
+		(at 238.76 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "12f14aa1-5d35-4fbe-a911-e5dfdcfab3c1")
+	)
+	(label "CS"
+		(at 45.72 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e9352f1-1c46-449b-baa5-2519f740f57b")
+	)
+	(label "SDO/ADR"
+		(at 248.92 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "3632f72c-c2ce-4c60-9e2d-608aafb5ac58")
+	)
+	(label "CS_3V"
+		(at 208.28 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "54849fc6-7f97-40e4-b796-4f85f7218b3b")
+	)
+	(label "VCC"
+		(at 238.76 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "60a68b8c-0db1-4fcc-95bb-02b336170e7d")
+	)
+	(label "SCK/SCL"
+		(at 45.72 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "7099daf6-acf4-4403-954b-52634ea6d23b")
+	)
+	(label "SCK_3V"
+		(at 129.54 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "72978454-400c-4598-b85c-aaf45cb658ab")
+	)
+	(label "SCK/SCL"
+		(at 238.76 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "77e6b8ad-eb57-4bf9-a25b-8d1f2eac685d")
+	)
+	(label "CS_3V"
+		(at 129.54 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "78188a40-f74f-46bf-8747-26f15ddafb53")
+	)
+	(label "SDO/ADR"
+		(at 233.68 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "83e2eb98-f6ba-4680-993c-8f10696df8e1")
+	)
+	(label "SCK_3V"
+		(at 198.12 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fb8375c-33f6-4126-9998-b66928201381")
+	)
+	(label "SDI/SDA"
+		(at 132.08 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "a04b0f43-ea06-4dd3-a56c-560c0d51b503")
+	)
+	(label "SDO/ADR"
+		(at 129.54 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9048456-fe7e-4c9b-8f2d-665f40d2d535")
+	)
+	(label "CS"
+		(at 226.06 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf345c03-6123-400c-a50a-432092a6a275")
+	)
+	(label "SDO/ADR"
+		(at 45.72 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7d3b897-6803-4c19-b6b3-19b2ac9fb188")
+	)
+	(label "SDI_3V"
+		(at 129.54 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9c71f3d-df54-4101-b6fe-5bb6799145ce")
+	)
+	(label "SCK/SCL"
+		(at 132.08 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "dad082d7-2063-4ee2-9c54-5b7159cca143")
+	)
+	(label "GND"
+		(at 238.76 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "e470c738-2fa0-430b-b23e-e5ff62062354")
+	)
+	(label "SDI/SDA"
+		(at 45.72 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4d9ab76-1975-4aee-b2cc-0a876b216af9")
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:GND")
+		(at 68.58 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06f02ee6-82ad-4774-8a77-a284b8a41af2")
+		(property "Reference" "#U$04"
+			(at 68.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.056 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08dd279e-22f7-4600-b92b-0719daa77d72")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "#U$04")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "#U$05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:RESISTOR_0603_NOOUT")
+		(at 96.52 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "087abded-401b-4dc8-beb8-f01778c66674")
+		(property "Reference" "R1"
+			(at 99.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 96.52 38.1 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BMP280 STEMMA QT:0603-NO"
+			(at 96.52 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a8d8ae6-f06d-4715-b147-50a55dff0f72")
+		)
+		(pin "2"
+			(uuid "5dca0a9d-d2b6-4766-8538-dd2f03fef17b")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:3.3V")
+		(at 246.38 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "100f1fab-5205-4c36-841c-a4a9b8c3a2cd")
+		(property "Reference" "#U$016"
+			(at 246.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 247.904 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b03b390-5d28-483a-a3e9-9ea6fde91457")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "#U$016")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "#U$08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:GND")
+		(at 93.98 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13a9b2f9-ecd7-48f7-bab6-60b2b3547370")
+		(property "Reference" "#U$09"
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.456 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6620a27-75e1-44a5-bdbe-a7e775537bb2")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "#U$09")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "#U$019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:STEMMA_I2C_QT")
+		(at 256.54 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1796748f-b9f7-46c8-8372-b216e8aa3ef6")
+		(property "Reference" "CONN2"
+			(at 252.73 37.465 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "STEMMA_I2C_QT"
+			(at 252.73 53.34 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit BMP280 STEMMA QT:JST_SH4"
+			(at 256.54 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "50f19f68-3182-4988-9b89-b8ae223b8a43")
+		)
+		(pin "3"
+			(uuid "a43be346-1243-4fdb-bb21-d1c44262a6ec")
+		)
+		(pin "MT2"
+			(uuid "1ab03b7a-7f7e-4daa-b33e-b163138725d4")
+		)
+		(pin "1"
+			(uuid "9441de18-81c4-41a4-807a-ada0ee743098")
+		)
+		(pin "2"
+			(uuid "6c8830f3-609c-40ce-ac91-ed2bffb5e785")
+		)
+		(pin "MT1"
+			(uuid "db48371f-7a45-4e15-8dc9-b624b4ae382a")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "CONN2")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "CONN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:RESISTOR_0603_NOOUT")
+		(at 205.74 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b5ff62f-a73b-4847-bcd3-b68587e7dcd3")
+		(property "Reference" "R3"
+			(at 203.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BMP280 STEMMA QT:0603-NO"
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64983810-82ea-4450-baed-f53d73b2afa3")
+		)
+		(pin "2"
+			(uuid "270f2e8c-b785-47b6-aebc-6ae4d746558c")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:3.3V")
+		(at 96.52 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b556ab5-9623-4d5f-a279-9fb88c3e39d0")
+		(property "Reference" "#U$010"
+			(at 96.52 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 94.996 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "149962c5-a998-4557-bd43-01a4749e63b5")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "#U$010")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "#U$03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:GND")
+		(at 27.94 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32f52a55-8ff0-495b-a5fd-8be1bbd0aef5")
+		(property "Reference" "#U$01"
+			(at 27.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 26.416 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4499f926-a78b-4a74-910a-dabc9043712b")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "#U$01")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "#U$013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:3.3V")
+		(at 182.88 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35d1d0ea-4047-4e45-874c-d0a84f06d7ea")
+		(property "Reference" "#U$014"
+			(at 182.88 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 184.404 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad6bc6c5-c4d8-4a5e-a75a-fbcf863cb7e5")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "#U$014")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "#U$07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:GND")
+		(at 246.38 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36815c00-d51c-4e96-bd48-1e96cc924bf2")
+		(property "Reference" "#U$017"
+			(at 246.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 244.856 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1cb7e2d-cb4b-4f09-8a81-19f80b9124ec")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "#U$017")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "#U$09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:DIODESOD-323")
+		(at 220.98 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36a7ce3e-92cc-4249-8c6f-75bfb0da1f5c")
+		(property "Reference" "D2"
+			(at 220.98 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 220.98 119.34 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BMP280 STEMMA QT:SOD-323"
+			(at 220.98 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "84154f50-1aee-46ae-90a1-38fcfe05d4dc")
+		)
+		(pin "A"
+			(uuid "eb576d64-4114-42f5-89a0-ecda6d6cf2dc")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:3.3V")
+		(at 93.98 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37536c54-5106-4ed4-92bd-587feabc2f51")
+		(property "Reference" "#U$08"
+			(at 93.98 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 92.456 120.904 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33e8224e-0be1-433e-9188-3ea00bf82f90")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "#U$08")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "#U$012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:SOLDERJUMPER")
+		(at 246.38 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39705b91-cb7d-4231-937a-abf0c305c95c")
+		(property "Reference" "SJ1"
+			(at 248.92 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SOLDERJUMPER"
+			(at 242.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit BMP280 STEMMA QT:SOLDERJUMPER_ARROW_NOPASTE"
+			(at 246.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "658b2922-61a8-4a6c-890e-5885ac45a70f")
+		)
+		(pin "1"
+			(uuid "17331dfa-e44a-4dbe-88ea-a81277dd4a84")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "SJ1")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "SJ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:3.3V")
+		(at 157.48 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40ce0457-6a88-4b15-8840-5232e49d9e0b")
+		(property "Reference" "#U$011"
+			(at 157.48 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 159.004 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d054bda-856d-4c6d-8208-4fc994de0941")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "#U$011")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "#U$026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
+		(at 27.94 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bb35087-e842-45af-a8aa-61348f348f7b")
+		(property "Reference" "C1"
+			(at 25.65 39.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 30.24 39.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BMP280 STEMMA QT:0805-NO"
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9a034440-63f0-420c-a4ab-397aadec066b")
+		)
+		(pin "1"
+			(uuid "edc1deb6-3570-4c91-a8da-bfd88e84bb81")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:3.3V")
+		(at 167.64 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dd92b54-5be0-4d58-acf1-7812601732bc")
+		(property "Reference" "#U$012"
+			(at 167.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 169.164 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c370caa-1e95-4d97-b3fe-0aa1166eed4f")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "#U$012")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "#U$023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:RESISTOR_4PACK")
+		(at 182.88 38.1 90)
+		(mirror x)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "533442db-d435-4333-aaa7-b2287141592c")
+		(property "Reference" "R2"
+			(at 180.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 182.88 38.1 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BMP280 STEMMA QT:RESPACK_4X0603"
+			(at 182.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ae328de4-a70d-4a31-983c-1cf20bcb8bec")
+		)
+		(pin "7"
+			(uuid "94d1d7d8-8551-4455-9b57-588e2717d472")
+		)
+		(pin "8"
+			(uuid "25a4e965-9d29-46ad-ba11-31490dea53fb")
+		)
+		(pin "3"
+			(uuid "5e2ca885-7c29-4a15-92d3-e2afbf37227a")
+		)
+		(pin "1"
+			(uuid "07c408d5-33a8-4588-8579-64981ad8fa2f")
+		)
+		(pin "2"
+			(uuid "527bf8b2-62e4-4425-a51c-0cffc59d7332")
+		)
+		(pin "6"
+			(uuid "8e7fb0cf-ad15-4fc8-a559-7b7f96da9aab")
+		)
+		(pin "5"
+			(uuid "1eed397a-8c6d-4cf4-8060-85cabfa9f112")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "R2")
+					(unit 4)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "R3")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:RESISTOR_0603_NOOUT")
+		(at 246.38 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f92c214-2b86-4bb6-863d-8e78c9d33562")
+		(property "Reference" "R4"
+			(at 243.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 246.38 111.76 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BMP280 STEMMA QT:0603-NO"
+			(at 246.38 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76ea9309-04c4-4866-ad86-ef28855a31f0")
+		)
+		(pin "1"
+			(uuid "8db03a8b-f2b7-40ea-b141-4083ff985d63")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:3.3V")
+		(at 68.58 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fa7fdec-56e2-44b8-aad3-2fab0d0d1791")
+		(property "Reference" "#U$03"
+			(at 68.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 67.056 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f39a752a-54a6-487d-a9f9-e4d74a185293")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "#U$03")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "#U$015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:3.3V")
+		(at 78.74 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "782cdede-2ade-4020-aa5a-7e807f7d328e")
+		(property "Reference" "#U$06"
+			(at 78.74 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 77.216 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93bce3cd-34df-4111-9814-ccc21ee38308")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "#U$06")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "#U$014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:GND")
+		(at 78.74 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95b698a9-ff3d-4408-b999-15ca99d048b4")
+		(property "Reference" "#U$07"
+			(at 78.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.216 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61eb8cb1-1186-4359-b1e1-c7ea1d453548")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "#U$07")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "#U$06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:MOSFET-N_DUAL")
+		(at 154.94 53.34 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98940700-bb8f-4f1e-b981-6cdd2a03a988")
+		(property "Reference" "Q1"
+			(at 154.305 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit BMP280 STEMMA QT:SOT363"
+			(at 154.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "b7df3012-103a-4924-a269-4d62d25d6377")
+		)
+		(pin "4"
+			(uuid "c65eacdb-3174-4cc0-919b-4508498d5e01")
+		)
+		(pin "1"
+			(uuid "47c7ab14-621d-47a8-aed9-a047f0f7f1cb")
+		)
+		(pin "2"
+			(uuid "bf17a6f8-aabc-4849-9e5e-370230c0c9dd")
+		)
+		(pin "3"
+			(uuid "ec6eb899-e8a6-4539-bd9c-af4ecfbb52f0")
+		)
+		(pin "5"
+			(uuid "c061dcc9-8c87-4cdc-a3af-665580d3c541")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:supply1_GND")
+		(at 96.52 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ddb65fe-1ccb-42ea-bc4e-19090c590577")
+		(property "Reference" "#GND01"
+			(at 96.52 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 58.42 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4572cb7e-5aea-4bbe-abd1-15b1fdc91803")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "#GND01")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "#GND06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:VCC")
+		(at 50.8 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ea678f2-db07-4a50-a574-69d133107b1a")
+		(property "Reference" "#P+02"
+			(at 50.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 48.26 81.28 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31188890-96c1-431c-9095-15a5d926cec4")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "#P+02")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "#P+04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:3.3V")
+		(at 175.26 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2f2e269-ca87-4fa6-a289-05da2e42509e")
+		(property "Reference" "#U$013"
+			(at 175.26 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 176.784 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2711ef6c-b821-415a-a1c0-42fbcbd20d2c")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "#U$013")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "#U$024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:BMP280_COMBO")
+		(at 111.76 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac51be49-fb2a-456e-8c81-d916f544aeb5")
+		(property "Reference" "U2"
+			(at 101.6 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BMP280_COMBO"
+			(at 101.6 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit BMP280 STEMMA QT:BMX280_COMBO"
+			(at 111.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "dda03809-484b-452f-a16b-c77d946d12e6")
+		)
+		(pin "2"
+			(uuid "d2226a57-3aff-490e-bb56-d7b81bc47efc")
+		)
+		(pin "6"
+			(uuid "6775ab04-8aae-4dcb-b390-dd08ad200a48")
+		)
+		(pin "4"
+			(uuid "bc2d34f2-6d2c-4cb7-8d57-c2d6f282b39b")
+		)
+		(pin "1"
+			(uuid "e38979bd-a654-42d9-b649-9806ea802d7e")
+		)
+		(pin "7"
+			(uuid "db3ffba2-2818-45b4-b448-dca45ab75254")
+		)
+		(pin "3"
+			(uuid "83271a92-00d7-4403-9a3d-c883f872c6e5")
+		)
+		(pin "5"
+			(uuid "8de8f485-7de7-4d4c-8f5a-a243239b5e05")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:3.3V")
+		(at 43.18 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acf92fb8-ca87-4fcd-a8ca-cd02ae033894")
+		(property "Reference" "#U$02"
+			(at 43.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 41.656 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38b85dbc-2304-4d6c-851f-8c0c5c636892")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "#U$02")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "#U$016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:GND")
+		(at 68.58 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b032aa6c-67db-4fd2-a7c9-9b93c4efebcd")
+		(property "Reference" "#U$05"
+			(at 68.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.056 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdd5bd06-e773-44f7-a2c6-c24dfcb67c35")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "#U$05")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "#U$010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:CAP_CERAMIC0603_NO")
+		(at 78.74 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdcf6446-9cff-452d-aa31-455058770a95")
+		(property "Reference" "C3"
+			(at 76.45 41.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 81.04 41.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BMP280 STEMMA QT:0603-NO"
+			(at 78.74 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24f45902-1009-4280-8640-585feeccfd14")
+		)
+		(pin "2"
+			(uuid "1e1d3ed2-b575-4951-9345-8e2ded737bcf")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:RESISTOR_4PACK")
+		(at 139.7 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c16d3b17-5fff-46ed-afcb-25d0314c5f7c")
+		(property "Reference" "R2"
+			(at 142.24 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BMP280 STEMMA QT:RESPACK_4X0603"
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ede9f6ea-671d-45cb-b53b-8818b9e4137e")
+		)
+		(pin "7"
+			(uuid "9377e054-5a98-49ad-a6b9-2041c44cdf7b")
+		)
+		(pin "8"
+			(uuid "37105f71-784a-4a2b-8fdf-b785fdc73dff")
+		)
+		(pin "3"
+			(uuid "32defe22-390a-484b-8736-aa79eb9b5d45")
+		)
+		(pin "4"
+			(uuid "7288b29d-8858-4ff8-8817-2ddc904011e3")
+		)
+		(pin "2"
+			(uuid "9b5103be-6009-4049-a52f-0e9d98840934")
+		)
+		(pin "1"
+			(uuid "89d1cf28-ec3a-4c5f-b96a-1dc8c8601218")
+		)
+		(pin "6"
+			(uuid "775853c5-a9e3-4039-97ce-a72604f2aa01")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:VCC")
+		(at 139.7 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c54ffa96-52cd-4c46-9075-f686d05f5e17")
+		(property "Reference" "#P+03"
+			(at 139.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 137.16 30.48 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47b8e5ed-9247-441e-9076-de751aa06e71")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "#P+03")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "#P+01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:LED0603_NOOUTLINE")
+		(at 96.52 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5e28480-38a1-4175-a923-e0240d23a5cd")
+		(property "Reference" "D1"
+			(at 100.965 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 93.726 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BMP280 STEMMA QT:CHIPLED_0603_NOOUTLINE"
+			(at 96.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "864ff096-8504-4b7f-8aeb-f4461bc18b11")
+		)
+		(pin "A"
+			(uuid "a1ebd28f-c173-4851-9cf9-cf8ec388e52e")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:VREG_SOT23-5")
+		(at 50.8 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9b2fd64-36ce-4c7d-a189-af2ef1ff6ae9")
+		(property "Reference" "U1"
+			(at 43.18 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "AP2112K-3.3"
+			(at 43.18 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit BMP280 STEMMA QT:SOT23-5"
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "817f76cc-babe-419f-ad89-be0dac1911b6")
+		)
+		(pin "4"
+			(uuid "5fd88366-0a35-435a-a392-21b35c71d207")
+		)
+		(pin "2"
+			(uuid "9dd0fc6e-f4ef-49e1-889d-1627d96554d1")
+		)
+		(pin "3"
+			(uuid "6bcd7669-885d-4f66-94cd-0eddf23081fe")
+		)
+		(pin "5"
+			(uuid "1ef484d6-025a-4a51-90d5-102efc4f3104")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
+		(at 68.58 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cee40aaa-b63d-40da-beb9-165402a621f5")
+		(property "Reference" "C2"
+			(at 66.29 41.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 70.88 41.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BMP280 STEMMA QT:0805-NO"
+			(at 68.58 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02c69e7d-17b4-4fd7-9f65-360e21bfc64e")
+		)
+		(pin "1"
+			(uuid "a6935031-1a00-487e-ae74-87be6751b116")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:HEADER-1X770MIL")
+		(at 60.96 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dac7a723-b3bf-42b3-9fa9-a98f60164e28")
+		(property "Reference" "JP1"
+			(at 54.61 83.185 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "HEADER-1X770MIL"
+			(at 54.61 106.68 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit BMP280 STEMMA QT:1X07_ROUND_70"
+			(at 60.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80ca9c89-85a4-4a40-b9f0-b61249c2189e")
+		)
+		(pin "3"
+			(uuid "9be72c34-7779-443d-b39b-2fd7af77c918")
+		)
+		(pin "4"
+			(uuid "eca792d4-e64a-45e2-9a68-68125ae7d220")
+		)
+		(pin "2"
+			(uuid "588c179c-e7cd-4dd0-a848-a1e35db69e25")
+		)
+		(pin "7"
+			(uuid "f8c626b1-8d06-4428-b9c3-bbac08ef5e6d")
+		)
+		(pin "5"
+			(uuid "581a9c24-ddd3-47af-b4ae-ab12807177a0")
+		)
+		(pin "6"
+			(uuid "bdfc583d-9ee0-4bce-af2d-ce87a5761b5a")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:3.3V")
+		(at 205.74 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc342cf1-a581-4287-8c56-936a67627f1f")
+		(property "Reference" "#U$015"
+			(at 205.74 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 204.216 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35178df7-5201-4f65-b730-c4a835e6aa13")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "#U$015")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "#U$042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:VCC")
+		(at 27.94 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "deec13c5-c7cb-4de5-951c-c5ec38c44a3b")
+		(property "Reference" "#P+01"
+			(at 27.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 25.4 33.02 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a25d5077-5b45-46d5-ace2-65949adaff14")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "#P+01")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "#P+03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:RESISTOR_4PACK")
+		(at 147.32 38.1 270)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1b65fed-f470-408e-85fb-cfd1e2f39ff3")
+		(property "Reference" "R2"
+			(at 149.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 147.32 38.1 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BMP280 STEMMA QT:RESPACK_4X0603"
+			(at 147.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "edb796fa-3c80-4974-8c70-52f5e12f2729")
+		)
+		(pin "7"
+			(uuid "91f4f494-d183-42a1-a110-d1c225eed49a")
+		)
+		(pin "5"
+			(uuid "82b466be-5941-4c4a-9d4b-d04ee9dd7d28")
+		)
+		(pin "1"
+			(uuid "d9464b08-fdd8-4dd8-953f-95d7145a252f")
+		)
+		(pin "6"
+			(uuid "df6c90e0-b81e-4bcb-8767-b6f42bac420f")
+		)
+		(pin "8"
+			(uuid "3476e27b-0484-431f-9d61-1603a6ad81ef")
+		)
+		(pin "2"
+			(uuid "c8e1319f-e6c2-47c5-96d8-8fd2355797b3")
+		)
+		(pin "4"
+			(uuid "a08c121e-21ce-4dba-a6f9-a0bebc7aca29")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "R2")
+					(unit 3)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "R3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:MOSFET-N_DUAL")
+		(at 165.1 43.18 90)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec6be83c-a488-4416-b5ee-1ffa6d9afe32")
+		(property "Reference" "Q1"
+			(at 164.465 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 166.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit BMP280 STEMMA QT:SOT363"
+			(at 165.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "92819fff-b53c-44a3-abec-913eb3a5d7f7")
+		)
+		(pin "1"
+			(uuid "46b8a6d5-3f59-4838-b577-0891a012a76d")
+		)
+		(pin "2"
+			(uuid "0d475729-542d-430e-b322-35be3ae217f3")
+		)
+		(pin "3"
+			(uuid "d7688537-9f8b-471b-9060-3eb4daf3ea5c")
+		)
+		(pin "4"
+			(uuid "7e522265-2799-47a2-9489-5eb2ea962b17")
+		)
+		(pin "5"
+			(uuid "1d9bf6c5-ed49-4dcd-9167-6e6a95250b1e")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "Q1")
+					(unit 2)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "Q2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:VCC")
+		(at 147.32 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5147cf7-90a5-4bb4-b4ff-69e4de26652c")
+		(property "Reference" "#P+04"
+			(at 147.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 144.78 30.48 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38be2260-794b-4e8d-8578-3558335a5f67")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "#P+04")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "#P+02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:RESISTOR_4PACK")
+		(at 175.26 38.1 90)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f66dd9ec-7b88-4bf8-893c-50f1420f6071")
+		(property "Reference" "R2"
+			(at 172.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 175.26 38.1 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit BMP280 STEMMA QT:RESPACK_4X0603"
+			(at 175.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "084a7ea4-6621-4217-be08-8b7286833e51")
+		)
+		(pin "6"
+			(uuid "df1e5453-6d3e-4791-ac99-9c756ca3bdb7")
+		)
+		(pin "1"
+			(uuid "3c130629-c05c-4ae4-8d35-c1086bec7214")
+		)
+		(pin "4"
+			(uuid "210c7407-1269-4547-9729-f1f0cf1bd76f")
+		)
+		(pin "5"
+			(uuid "a86c9f95-cba0-49c1-b99b-2d3706f4108d")
+		)
+		(pin "8"
+			(uuid "d286ec88-83b4-4583-9952-a4b75fb1a753")
+		)
+		(pin "2"
+			(uuid "a01af506-7e7a-45be-be90-99f49a3f3daf")
+		)
+		(pin "3"
+			(uuid "e1fa49b0-bf6d-4987-b010-ccd4f224d827")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "R2")
+					(unit 2)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "R3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit BMP280 STEMMA QT-eagle-import:STEMMA_I2C_QT")
+		(at 223.52 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffd8d6e5-d70f-4043-8806-9f039170cf07")
+		(property "Reference" "CONN1"
+			(at 219.71 37.465 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "STEMMA_I2C_QT"
+			(at 219.71 53.34 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit BMP280 STEMMA QT:JST_SH4"
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a14aad7b-2e1d-4695-83ad-e2b3b50a4a16")
+		)
+		(pin "3"
+			(uuid "1d51ebc6-4c0d-42f4-8812-8c5b7e4f84f1")
+		)
+		(pin "2"
+			(uuid "20724057-c172-4044-a03d-e83cdd28bcc4")
+		)
+		(pin "4"
+			(uuid "47bdc057-2746-4373-bdf9-035f92cbc582")
+		)
+		(pin "MT1"
+			(uuid "b9383533-9d90-4820-bdf7-c1fe5a5e9e6e")
+		)
+		(pin "MT2"
+			(uuid "d82523e2-e542-47be-a6fe-a5351398cd31")
+		)
+		(instances
+			(project "VTVL_ver1.0"
+				(path "/aee4a618-ee24-4373-bd8d-91903d2a106a/cf9d0fb6-afac-42dd-ac45-15d99603c499"
+					(reference "CONN1")
+					(unit 1)
+				)
+			)
+			(project "Adafruit BMP280 STEMMA QT"
+				(path "/c23806fb-e866-404a-bfc2-79d12ed358b0"
+					(reference "CONN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
